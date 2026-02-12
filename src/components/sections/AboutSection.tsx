@@ -1,11 +1,11 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { User } from "lucide-react";
+import { Users } from "lucide-react";
 import Container from "@/components/ui/Container";
 import SectionBadge from "@/components/ui/SectionBadge";
 import FadeInWhenVisible from "@/components/animations/FadeInWhenVisible";
-import type { AboutMeDict } from "@/types";
+import type { AboutMeDict, FounderEntry } from "@/types";
 
 function GitHubIcon({ className }: { className?: string }) {
   return (
@@ -15,98 +15,122 @@ function GitHubIcon({ className }: { className?: string }) {
   );
 }
 
+function FounderCard({
+  founder,
+  githubButton,
+  delay,
+}: {
+  founder: FounderEntry;
+  githubButton: string;
+  delay: number;
+}) {
+  return (
+    <FadeInWhenVisible direction="up" delay={delay}>
+      {/* Gradient border wrapper */}
+      <div className="h-full rounded-2xl bg-gradient-to-br from-brand-500/30 via-brand-600/15 to-brand-500/30 p-[1.5px]">
+        {/* Inner card */}
+        <div className="h-full rounded-2xl bg-[#1F1F23] p-6 md:p-8 relative overflow-hidden">
+          {/* Subtle contribution-grid dot pattern */}
+          <div
+            className="absolute inset-0 pointer-events-none opacity-[0.03]"
+            style={{
+              backgroundImage:
+                "radial-gradient(circle, #fff 1px, transparent 1px)",
+              backgroundSize: "16px 16px",
+            }}
+          />
+
+          {/* Content */}
+          <div className="relative flex flex-col items-center text-center gap-4">
+            {/* Avatar */}
+            <motion.div
+              initial={{ scale: 0.8, opacity: 0 }}
+              whileInView={{ scale: 1, opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, ease: "easeOut" }}
+              className="relative shrink-0"
+            >
+              <img
+                src={`https://github.com/${founder.githubUsername}.png`}
+                alt={`${founder.firstName} ${founder.surname}`}
+                width={80}
+                height={80}
+                className="w-20 h-20 rounded-full border-2 border-[#2F2F35] ring-2 ring-brand-500/20 object-cover"
+              />
+              {/* GitHub badge overlay */}
+              <div className="absolute -bottom-1 -right-1 w-6 h-6 bg-[#1F1F23] rounded-full border-2 border-[#2F2F35] flex items-center justify-center">
+                <GitHubIcon className="w-3 h-3 text-gray-400" />
+              </div>
+            </motion.div>
+
+            {/* Text content */}
+            <div>
+              {/* Name */}
+              <h2 className="text-2xl md:text-3xl font-bold text-white">
+                {founder.firstName}{" "}
+                <span
+                  className="text-[#9BA8B8] italic"
+                  style={{ fontFamily: "var(--font-script)" }}
+                >
+                  {founder.surname}
+                </span>
+              </h2>
+
+              {/* GitHub handle */}
+              <div className="flex items-center justify-center gap-2 mt-2">
+                <span className="w-2 h-2 rounded-full bg-emerald-500 shadow-[0_0_6px_rgba(16,185,129,0.6)]" />
+                <GitHubIcon className="w-3.5 h-3.5 text-gray-500" />
+                <span className="text-sm text-gray-500">
+                  @{founder.githubUsername}
+                </span>
+              </div>
+
+              {/* Bio */}
+              <p className="text-gray-400 text-sm leading-relaxed mt-4">
+                {founder.bio}
+              </p>
+
+              {/* GitHub button */}
+              <a
+                href={`https://github.com/${founder.githubUsername}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 mt-6 px-4 py-2 bg-[#238636] hover:bg-[#2ea043] text-white text-sm font-medium rounded-lg transition-colors"
+              >
+                <GitHubIcon className="w-4 h-4" />
+                {githubButton}
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </FadeInWhenVisible>
+  );
+}
+
 export default function AboutSection({ dict }: { dict: AboutMeDict }) {
   return (
-    <section id="founder" className="bg-[#0E0E10] py-16 md:py-24 relative overflow-hidden">
+    <section id="founders" className="bg-[#0E0E10] py-16 md:py-24 relative overflow-hidden">
       {/* Background ambient glow */}
       <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[350px] bg-brand-500/15 rounded-full blur-[80px] pointer-events-none" />
 
       <Container className="relative z-10">
         {/* Section badge */}
         <div className="text-center mb-12">
-          <SectionBadge icon={User}>{dict.badge}</SectionBadge>
+          <SectionBadge icon={Users}>{dict.badge}</SectionBadge>
         </div>
 
-        <FadeInWhenVisible direction="up">
-          {/* Gradient border wrapper */}
-          <div className="max-w-2xl mx-auto rounded-2xl bg-gradient-to-br from-brand-500/30 via-brand-600/15 to-brand-500/30 p-[1.5px]">
-            {/* Inner card */}
-            <div className="rounded-2xl bg-[#1F1F23] p-8 md:p-10 relative overflow-hidden">
-              {/* Subtle contribution-grid dot pattern */}
-              <div
-                className="absolute inset-0 pointer-events-none opacity-[0.03]"
-                style={{
-                  backgroundImage:
-                    "radial-gradient(circle, #fff 1px, transparent 1px)",
-                  backgroundSize: "16px 16px",
-                }}
-              />
-
-              {/* Content */}
-              <div className="relative flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-8">
-                {/* Avatar */}
-                <motion.div
-                  initial={{ scale: 0.8, opacity: 0 }}
-                  whileInView={{ scale: 1, opacity: 1 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.5, ease: "easeOut" }}
-                  className="relative shrink-0"
-                >
-                  <img
-                    src={`https://github.com/${dict.githubUsername}.png`}
-                    alt={`${dict.firstName} ${dict.surname}`}
-                    width={96}
-                    height={96}
-                    className="w-24 h-24 rounded-full border-2 border-[#2F2F35] ring-2 ring-brand-500/20 object-cover"
-                  />
-                  {/* GitHub badge overlay */}
-                  <div className="absolute -bottom-1 -right-1 w-7 h-7 bg-[#1F1F23] rounded-full border-2 border-[#2F2F35] flex items-center justify-center">
-                    <GitHubIcon className="w-3.5 h-3.5 text-gray-400" />
-                  </div>
-                </motion.div>
-
-                {/* Text content */}
-                <div className="text-center md:text-left">
-                  {/* Name */}
-                  <h2 className="text-3xl md:text-4xl font-bold text-white">
-                    {dict.firstName}{" "}
-                    <span
-                      className="text-[#9BA8B8] italic"
-                      style={{ fontFamily: "var(--font-script)" }}
-                    >
-                      {dict.surname}
-                    </span>
-                  </h2>
-
-                  {/* GitHub handle */}
-                  <div className="flex items-center justify-center md:justify-start gap-2 mt-2">
-                    <span className="w-2 h-2 rounded-full bg-emerald-500 shadow-[0_0_6px_rgba(16,185,129,0.6)]" />
-                    <GitHubIcon className="w-3.5 h-3.5 text-gray-500" />
-                    <span className="text-sm text-gray-500">
-                      @{dict.githubUsername}
-                    </span>
-                  </div>
-
-                  {/* Bio */}
-                  <p className="text-gray-400 text-base leading-relaxed mt-4 max-w-xl">
-                    {dict.bio}
-                  </p>
-
-                  {/* GitHub button */}
-                  <a
-                    href={`https://github.com/${dict.githubUsername}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 mt-6 px-5 py-2.5 bg-[#238636] hover:bg-[#2ea043] text-white text-sm font-medium rounded-lg transition-colors"
-                  >
-                    <GitHubIcon className="w-4 h-4" />
-                    {dict.githubButton}
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </FadeInWhenVisible>
+        {/* Founders grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+          {dict.founders.map((founder, index) => (
+            <FounderCard
+              key={founder.githubUsername}
+              founder={founder}
+              githubButton={dict.githubButton}
+              delay={index * 0.15}
+            />
+          ))}
+        </div>
       </Container>
     </section>
   );

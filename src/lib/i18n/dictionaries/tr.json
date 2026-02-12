@@ -7,7 +7,7 @@
     "links": [
       { "label": "Hizmetler", "href": "#services" },
       { "label": "Nasıl Çalışır", "href": "#how-it-works" },
-      { "label": "Hakkımızda", "href": "#founder" },
+      { "label": "Hakkımızda", "href": "#founders" },
       { "label": "SSS", "href": "#faq" }
     ],
     "bookACall": "Görüşme Ayarla"
@@ -251,12 +251,22 @@
     ]
   },
   "aboutMe": {
-    "badge": "Kurucu",
-    "firstName": "Kaan",
-    "surname": "KUZU",
-    "githubUsername": "kaankuzu1",
-    "bio": "Ajansların ölçeklenmesine yardımcı otomasyonlar oluşturmaya ve makine öğrenimi modelleri geliştirmeye tutkuyla bağlı full-stack mühendis. Audience Labs'ı akıllı otomasyon, veriye dayalı dağıtım ve yetenekli bir clipper ağını birleştirerek yayınları viral anlara dönüştürmek için kurdum.",
-    "githubButton": "GitHub'da Görüntüle"
+    "badge": "Kurucular",
+    "githubButton": "GitHub'da Görüntüle",
+    "founders": [
+      {
+        "firstName": "Kaan",
+        "surname": "KUZU",
+        "githubUsername": "kaankuzu1",
+        "bio": "Ajansların ölçeklenmesine yardımcı otomasyonlar oluşturmaya ve makine öğrenimi modelleri geliştirmeye tutkuyla bağlı full-stack mühendis. Audience Labs'ı akıllı otomasyon, veriye dayalı dağıtım ve yetenekli bir clipper ağını birleştirerek yayınları viral anlara dönüştürmek için kurdum."
+      },
+      {
+        "firstName": "Mehmet Eren",
+        "surname": "ALPAN",
+        "githubUsername": "segv0",
+        "bio": "Siber güvenlik uzmanı ve eski FRC robotik takımı kaptanı; dayanıklı sistemler inşa etme tutkusuyla hareket eder. Audience Labs'ta güvenlik altyapısı ve ağ mimarisine liderlik ederek clipper platformunun güvenli ve güvenilir şekilde ölçeklenmesini sağlar."
+      }
+    ]
   },
   "faq": {
     "badge": "SSS",
@@ -310,7 +320,7 @@
       {
         "title": "Şirket",
         "links": [
-          { "label": "Hakkımızda", "href": "#founder" },
+          { "label": "Hakkımızda", "href": "#founders" },
           { "label": "SSS", "href": "#faq" },
           { "label": "İletişim", "href": "#" }
         ]
