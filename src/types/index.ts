@@ -61,6 +61,7 @@ export type SimplifyDict = Dictionary["simplify"];
 export type WhyChooseDict = Dictionary["whyChoose"];
 export type TestimonialsDict = Dictionary["testimonials"];
 export type AboutMeDict = Dictionary["aboutMe"];
+export type FounderEntry = AboutMeDict["founders"][number];
 export type FAQDict = Dictionary["faq"];
 export type CTADict = Omit<Dictionary["cta"], "stats"> & {
   stats: CTAStat[];

@@ -7,7 +7,7 @@
     "links": [
       { "label": "Services", "href": "#services" },
       { "label": "How It Works", "href": "#how-it-works" },
-      { "label": "About Us", "href": "#founder" },
+      { "label": "About Us", "href": "#founders" },
       { "label": "FAQ", "href": "#faq" }
     ],
     "bookACall": "Book a Call"
@@ -251,12 +251,22 @@
     ]
   },
   "aboutMe": {
-    "badge": "Founder",
-    "firstName": "Kaan",
-    "surname": "KUZU",
-    "githubUsername": "kaankuzu1",
-    "bio": "Full-stack engineer passionate about creating automations that help businesses scale and developing machine learning models. I built Audience Labs to combine intelligent automation, data-driven distribution, and a network of skilled clippers to turn streams into viral moments.",
-    "githubButton": "View on GitHub"
+    "badge": "Founders",
+    "githubButton": "View on GitHub",
+    "founders": [
+      {
+        "firstName": "Kaan",
+        "surname": "KUZU",
+        "githubUsername": "kaankuzu1",
+        "bio": "Full-stack engineer passionate about creating automations that help businesses scale and developing machine learning models. I built Audience Labs to combine intelligent automation, data-driven distribution, and a network of skilled clippers to turn streams into viral moments."
+      },
+      {
+        "firstName": "Mehmet Eren",
+        "surname": "ALPAN",
+        "githubUsername": "segv0",
+        "bio": "Cybersecurity specialist and former FRC robotics team captain with a passion for building resilient systems. At Audience Labs, he leads security infrastructure and network architecture to ensure the clipper platform scales safely and reliably."
+      }
+    ]
   },
   "faq": {
     "badge": "FAQ",
@@ -310,7 +320,7 @@
       {
         "title": "Company",
         "links": [
-          { "label": "About", "href": "#founder" },
+          { "label": "About", "href": "#founders" },
           { "label": "FAQ", "href": "#faq" },
           { "label": "Contact", "href": "#" }
         ]
