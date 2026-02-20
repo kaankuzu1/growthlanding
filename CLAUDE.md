@@ -78,3 +78,6 @@ Non-translatable data lives in `src/lib/constants.ts`: `CALENDLY_URL` and `TRUST
 - Dark theme throughout: cards use `bg-[#1F1F23]` with `border-[#2F2F35]`, text uses `text-gray-100`/`text-gray-400` for contrast on dark backgrounds, SVG logo fills use `#9146FF`.
 - AboutSection (`#creator`) is a GitHub-inspired personal card for the founder. Uses the 3-layer card pattern (ambient glow, gradient border, inner `bg-[#1F1F23]` card). Displays GitHub avatar from `https://github.com/{githubUsername}.png`, name with surname in muted steel italic Instrument_Serif (`font-script`), green online dot + `@username` handle, bio paragraph, and a GitHub-green (`#238636`) button linking to the profile. Subtle dot-grid pattern inside the card (`opacity-[0.03]`). Avatar enters with Framer Motion scale animation. Dictionary key: `aboutMe` with fields `badge`, `firstName`, `surname`, `githubUsername`, `bio`, `githubButton`. `AboutMeDict` type in `src/types/index.ts`.
 - Static images in `/public/`: `logo.png` (flask icon used as site logo in Navbar + Footer), `calcom-logo.avif` (Cal.com logo used in CTA buttons). Favicon at `src/app/favicon.ico` is derived from `logo.png`. All other visuals are CSS/SVG-based.
+
+# currentDate
+Today's date is 2026-02-20.
