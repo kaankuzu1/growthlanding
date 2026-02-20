@@ -340,7 +340,7 @@
       },
       {
         "heading": "Haklarınız",
-        "content": "Kişisel verilerinize erişme, düzeltme veya silme hakkına sahipsiniz. Ayrıca hakkınızda tuttuğumuz verilerin bir kopyasını talep edebilir veya veri işleme onayınızı istediğiniz zaman geri çekebilirsiniz. Bu haklardan herhangi birini kullanmak için lütfen privacy@audiencelabs.co adresinden bizimle iletişime geçin."
+        "content": "Kişisel verilerinize erişme, düzeltme veya silme hakkına sahipsiniz. Ayrıca hakkınızda tuttuğumuz verilerin bir kopyasını talep edebilir veya veri işleme onayınızı istediğiniz zaman geri çekebilirsiniz. Bu haklardan herhangi birini kullanmak için lütfen info@audiencelabs.net adresinden bizimle iletişime geçin."
       },
       {
         "heading": "Bu Politikadaki Değişiklikler",
@@ -348,7 +348,7 @@
       },
       {
         "heading": "İletişim",
-        "content": "Bu Gizlilik Politikası veya veri uygulamalarımız hakkında sorularınız varsa, lütfen privacy@audiencelabs.co adresinden veya web sitemizdeki iletişim formu aracılığıyla bizimle iletişime geçin."
+        "content": "Bu Gizlilik Politikası veya veri uygulamalarımız hakkında sorularınız varsa, lütfen info@audiencelabs.net adresinden veya web sitemizdeki iletişim formu aracılığıyla bizimle iletişime geçin."
       }
     ]
   },
@@ -390,7 +390,7 @@
       },
       {
         "heading": "Uygulanacak Hukuk",
-        "content": "Bu Kullanım Şartları, Türkiye Cumhuriyeti yasalarına göre yönetilir ve yorumlanır. Bu şartlardan kaynaklanan anlaşmazlıklar İstanbul, Türkiye mahkemelerinde çözülecektir."
+        "content": "Bu Kullanım Şartları, İngiltere ve Galler yasalarına göre yönetilir ve yorumlanır. Bu şartlardan kaynaklanan anlaşmazlıklar İngiltere ve Galler mahkemelerinin münhasır yargı yetkisine tabi olacaktır."
       },
       {
         "heading": "Şartlardaki Değişiklikler",
@@ -428,12 +428,13 @@
       },
       {
         "heading": "İletişim",
-        "content": "Çerez kullanımımız hakkında sorularınız varsa, lütfen privacy@audiencelabs.co adresinden veya web sitemizdeki iletişim formu aracılığıyla bizimle iletişime geçin."
+        "content": "Çerez kullanımımız hakkında sorularınız varsa, lütfen info@audiencelabs.net adresinden veya web sitemizdeki iletişim formu aracılığıyla bizimle iletişime geçin."
       }
     ]
   },
   "footer": {
     "description": "TikTok ve Instagram Reels'de ölçeklenebilir klip dağıtımı ile yayıncı kitlelerini büyütüyoruz.",
+    "contactEmail": "info@audiencelabs.net",
     "columns": [
       {
         "title": "Hizmetler",

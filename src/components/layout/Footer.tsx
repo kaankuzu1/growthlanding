@@ -1,4 +1,4 @@
-import { Twitter, Instagram } from "lucide-react";
+import { Twitter, Instagram, Mail } from "lucide-react";
 import Container from "@/components/ui/Container";
 import type { FooterDict } from "@/types";
 
@@ -16,6 +16,13 @@ export default function Footer({ dict, locale }: { dict: FooterDict; locale: str
               <p className="text-sm text-gray-400 max-w-xs">
                 {dict.description}
               </p>
+              <a
+                href={`mailto:${dict.contactEmail}`}
+                className="inline-flex items-center gap-2 text-sm text-gray-400 hover:text-white transition-colors mt-4"
+              >
+                <Mail className="w-4 h-4" />
+                {dict.contactEmail}
+              </a>
             </div>
 
             {/* Link columns */}
