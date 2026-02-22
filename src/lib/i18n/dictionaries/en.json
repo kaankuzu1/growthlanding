@@ -25,7 +25,7 @@
   "impact": {
     "badge": "Our Promise",
     "heading": "What We Guarantee",
-    "description": "Data-driven clip distribution built on real organic growth — no bots, no fake engagement. We commit to full transparency, weekly performance reports, and a strategy tailored to your stream. If we don't deliver, you don't pay.",
+    "description": "Data-driven clip distribution built on real organic growth — no bots, no fake engagement. We commit to full transparency, weekly performance reports, and a strategy tailored to your stream.",
     "stats": [
       { "value": "100%", "label": "Organic Growth", "emoji": "🌱" },
       { "value": "$0", "label": "Upfront Cost", "emoji": "💰" }
@@ -340,7 +340,7 @@
       },
       {
         "heading": "Your Rights",
-        "content": "You have the right to access, correct, or delete your personal data. You may also request a copy of the data we hold about you or withdraw your consent for data processing at any time. To exercise any of these rights, please contact us at info@audiencelabs.net."
+        "content": "You have the right to access, correct, or delete your personal data. You may also request a copy of the data we hold about you or withdraw your consent for data processing at any time. To exercise any of these rights, please contact us at info@mindorasystems.com."
       },
       {
         "heading": "Changes to This Policy",
@@ -348,7 +348,7 @@
       },
       {
         "heading": "Contact Us",
-        "content": "If you have any questions about this Privacy Policy or our data practices, please contact us at info@audiencelabs.net or through the contact form on our website."
+        "content": "If you have any questions about this Privacy Policy or our data practices, please contact us at info@mindorasystems.com or through the contact form on our website."
       }
     ]
   },
@@ -428,13 +428,13 @@
       },
       {
         "heading": "Contact Us",
-        "content": "If you have questions about our use of cookies, please contact us at info@audiencelabs.net or through the contact form on our website."
+        "content": "If you have questions about our use of cookies, please contact us at info@mindorasystems.com or through the contact form on our website."
       }
     ]
   },
   "footer": {
     "description": "Growing streamer audiences through scalable clip distribution across TikTok and Instagram Reels.",
-    "contactEmail": "info@audiencelabs.net",
+    "contactEmail": "info@mindorasystems.com",
     "columns": [
       {
         "title": "Services",
