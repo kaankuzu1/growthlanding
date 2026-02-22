@@ -25,7 +25,7 @@
   "impact": {
     "badge": "Sözümüz",
     "heading": "Neler Garanti Ediyoruz",
-    "description": "Gerçek organik büyüme üzerine kurulu veriye dayalı klip dağıtımı — bot yok, sahte etkileşim yok. Tam şeffaflık, haftalık performans raporları ve yayınınıza özel strateji taahhüt ediyoruz. Sonuç getiremezsek, ödeme yapmazsınız.",
+    "description": "Gerçek organik büyüme üzerine kurulu veriye dayalı klip dağıtımı — bot yok, sahte etkileşim yok. Tam şeffaflık, haftalık performans raporları ve yayınınıza özel strateji taahhüt ediyoruz.",
     "stats": [
       { "value": "100%", "label": "Organik Büyüme", "emoji": "🌱" },
       { "value": "$0", "label": "Ön Ödeme", "emoji": "💰" }
@@ -340,7 +340,7 @@
       },
       {
         "heading": "Haklarınız",
-        "content": "Kişisel verilerinize erişme, düzeltme veya silme hakkına sahipsiniz. Ayrıca hakkınızda tuttuğumuz verilerin bir kopyasını talep edebilir veya veri işleme onayınızı istediğiniz zaman geri çekebilirsiniz. Bu haklardan herhangi birini kullanmak için lütfen info@audiencelabs.net adresinden bizimle iletişime geçin."
+        "content": "Kişisel verilerinize erişme, düzeltme veya silme hakkına sahipsiniz. Ayrıca hakkınızda tuttuğumuz verilerin bir kopyasını talep edebilir veya veri işleme onayınızı istediğiniz zaman geri çekebilirsiniz. Bu haklardan herhangi birini kullanmak için lütfen info@mindorasystems.com adresinden bizimle iletişime geçin."
       },
       {
         "heading": "Bu Politikadaki Değişiklikler",
@@ -348,7 +348,7 @@
       },
       {
         "heading": "İletişim",
-        "content": "Bu Gizlilik Politikası veya veri uygulamalarımız hakkında sorularınız varsa, lütfen info@audiencelabs.net adresinden veya web sitemizdeki iletişim formu aracılığıyla bizimle iletişime geçin."
+        "content": "Bu Gizlilik Politikası veya veri uygulamalarımız hakkında sorularınız varsa, lütfen info@mindorasystems.com adresinden veya web sitemizdeki iletişim formu aracılığıyla bizimle iletişime geçin."
       }
     ]
   },
@@ -428,13 +428,13 @@
       },
       {
         "heading": "İletişim",
-        "content": "Çerez kullanımımız hakkında sorularınız varsa, lütfen info@audiencelabs.net adresinden veya web sitemizdeki iletişim formu aracılığıyla bizimle iletişime geçin."
+        "content": "Çerez kullanımımız hakkında sorularınız varsa, lütfen info@mindorasystems.com adresinden veya web sitemizdeki iletişim formu aracılığıyla bizimle iletişime geçin."
       }
     ]
   },
   "footer": {
     "description": "TikTok ve Instagram Reels'de ölçeklenebilir klip dağıtımı ile yayıncı kitlelerini büyütüyoruz.",
-    "contactEmail": "info@audiencelabs.net",
+    "contactEmail": "info@mindorasystems.com",
     "columns": [
       {
         "title": "Hizmetler",
