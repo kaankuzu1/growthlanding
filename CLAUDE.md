@@ -20,7 +20,7 @@ Uses the Next.js App Router `[locale]` dynamic segment pattern with no external 
 - **`src/lib/i18n/config.ts`** — Exports `i18n` config (`defaultLocale: "en"`, `locales: ["en", "tr"]`) and `Locale` type.
 - **`src/lib/i18n/dictionaries.ts`** — Server-only dictionary loader. Lazily imports JSON dictionaries via `import()`.
 - **`src/lib/i18n/dictionaries/en.json`** / **`tr.json`** — All translatable strings organized by section: `metadata`, `nav`, `hero`, `trustBar`, `impact`, `services`, `simplify`, `whyChoose`, `testimonials`, `aboutMe`, `faq`, `cta`, `privacy`, `terms`, `cookies`, `footer`. Both files must have identical structure. The `privacy`, `terms`, and `cookies` sections each contain `title`, `lastUpdated`, and `sections` (array of `{ heading, content }`) for legal pages.
-- **`middleware.ts`** (project root) — Redirects `/` to `/en` or `/tr` based on `Accept-Language` header. Skips `_next`, `api`, `favicon.ico`, and static assets.
+- **`middleware.ts`** (project root) — Redirects `/` to `/en` or `/tr` based on `Accept-Language` header. Skips `_next`, `api`, `favicon.ico`, and static assets. i18n config values (`defaultLocale`, `locales`) are inlined directly in the middleware (not imported from `@/lib/i18n/config`) to avoid Vercel Edge Runtime unsupported module errors.
 - **`src/types/index.ts`** — Exports `Dictionary` type (derived from `en.json` shape) plus per-section subtypes (`NavDict`, `HeroDict`, `ImpactDict`, `AboutMeDict`, `LegalPageDict`, `PrivacyDict`, `TermsDict`, `CookiesDict`, etc.) used as component props.
 
 **Adding a new translatable string:** Add the key/value to both `en.json` and `tr.json` in the same location. The `Dictionary` type auto-updates since it's derived from the JSON import shape.
@@ -33,7 +33,7 @@ Uses the Next.js App Router `[locale]` dynamic segment pattern with no external 
 
 `src/app/[locale]/layout.tsx` is the main layout: renders `<html lang={locale}>`, loads Inter + Space Mono fonts via `next/font/google`, wraps pages with `<Navbar dict={dict.nav} locale={locale}>` and `<Footer dict={dict.footer} locale={locale}>`. Has `generateMetadata` for per-locale title/description and `generateStaticParams` for both locales.
 
-Legal pages (`src/app/[locale]/privacy/page.tsx`, `terms/page.tsx`, `cookies/page.tsx`) are server components that render prose-style legal content from dictionary `privacy`/`terms`/`cookies` sections. Each has `generateMetadata` and `generateStaticParams`. They inherit Navbar + Footer from the `[locale]` layout. Terms of Service governing law references England and Wales courts. Contact email across all legal pages is `info@mindorasystems.com`.
+Legal pages (`src/app/[locale]/privacy/page.tsx`, `terms/page.tsx`, `cookies/page.tsx`) are server components that render prose-style legal content from dictionary `privacy`/`terms`/`cookies` sections. Each has `generateMetadata` and `generateStaticParams`. They inherit Navbar + Footer from the `[locale]` layout. Terms of Service governing law references England and Wales courts. Contact email across all legal pages is `info@mindorasystems.com`. Legal content follows a strict guideline: Audience Labs sells **distribution and visibility**, not results. Terms use a **campaign-based model** (not subscription), with best-effort service delivery, no performance guarantees (views, followers, virality, revenue), third-party distribution accounts (not owned by client), copyright responsibility on the client, and no refund after campaign start. Privacy policy collects minimal data (email, channel name, platform links only — no passwords or account access). Clipper community is defined as independent third parties using only publicly available broadcast content. No operational details (clip pricing, clipper fees) are ever disclosed in legal or marketing text.
 
 `src/app/layout.tsx` is a bare shell that just returns `children` (required by Next.js but delegates everything to the `[locale]` layout).
 
@@ -80,4 +80,4 @@ Non-translatable data lives in `src/lib/constants.ts`: `CALENDLY_URL` and `TRUST
 - Static images in `/public/`: `logo.png` (flask icon used as site logo in Navbar + Footer), `calcom-logo.avif` (Cal.com logo used in CTA buttons). Favicon at `src/app/favicon.ico` is derived from `logo.png`. All other visuals are CSS/SVG-based.
 
 # currentDate
-Today's date is 2026-02-20.
+Today's date is 2026-02-22.
