@@ -1,5 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
-import { i18n } from "@/lib/i18n/config";
+
+const defaultLocale = "en";
+const locales = ["en", "tr"];
 
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
@@ -15,7 +17,7 @@ export function middleware(request: NextRequest) {
   }
 
   // Check if the pathname already has a locale
-  const pathnameHasLocale = i18n.locales.some(
+  const pathnameHasLocale = locales.some(
     (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
   );
 
@@ -25,7 +27,7 @@ export function middleware(request: NextRequest) {
   const acceptLanguage = request.headers.get("accept-language") || "";
   const preferredLocale = acceptLanguage.toLowerCase().includes("tr")
     ? "tr"
-    : i18n.defaultLocale;
+    : defaultLocale;
 
   // Redirect to locale-prefixed path
   const newUrl = new URL(`/${preferredLocale}${pathname}`, request.url);
