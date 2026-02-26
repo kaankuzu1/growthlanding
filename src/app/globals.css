@@ -232,6 +232,24 @@
   100% { opacity: 0; transform: translateY(-90px) translateX(4px) scale(0.85); }
 }
 
+@keyframes equalizer-pulse {
+  0%, 100% {
+    transform: scaleY(0.3);
+  }
+  50% {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes bar-grow {
+  0% {
+    transform: scaleY(0);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+
 body {
   background: #0E0E10;
   color: #EFEFF1;

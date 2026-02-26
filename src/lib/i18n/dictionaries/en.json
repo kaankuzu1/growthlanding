@@ -45,52 +45,34 @@
     "subtitle": "End-to-end clip distribution and growth services built for streamers.",
     "items": [
       {
-        "label": "AUTOMATED CLIPPING",
+        "label": "CLIP DISTRIBUTION",
         "title": "Clip Distribution",
-        "description": "Our clipper network captures your best stream moments and distributes them across TikTok, Instagram Reels, and YouTube Shorts for maximum reach.",
+        "description": "Our clipper network captures your best stream moments and distributes them simultaneously across TikTok, Instagram Reels, and YouTube Shorts from a single campaign.",
         "icon": "video"
       },
       {
-        "label": "CROSS-PLATFORM",
+        "label": "CAMPAIGN MANAGEMENT",
         "title": "Campaign Management",
         "description": "We plan, schedule, and optimize your clip campaigns across platforms so every post hits the right audience at the right time.",
         "icon": "share"
       },
       {
-        "label": "REAL-TIME DATA",
-        "title": "Growth Analytics",
-        "description": "Track your audience growth, clip performance, and platform metrics in real time with detailed reports and actionable insights.",
-        "icon": "chart"
-      },
-      {
-        "label": "ALGORITHM-FIRST",
-        "title": "Content Optimization",
-        "description": "Every clip is edited, captioned, and timed using strategies optimized for TikTok and Instagram algorithms to maximize reach and engagement.",
-        "icon": "sparkles"
-      },
-      {
-        "label": "EVERYWHERE AT ONCE",
-        "title": "Multi-Platform Reach",
-        "description": "Distribute your content simultaneously across TikTok, Instagram Reels, and YouTube Shorts from a single campaign.",
-        "icon": "globe"
-      },
-      {
-        "label": "STAY AHEAD",
+        "label": "TREND DETECTION",
         "title": "Trend Detection",
         "description": "Our team monitors trending sounds, formats, and hashtags to ensure your clips ride the wave of what's popular.",
         "icon": "trending"
       },
       {
-        "label": "GROW YOUR TRIBE",
-        "title": "Community Building",
-        "description": "Build a loyal, engaged audience across platforms with consistent content that keeps viewers coming back.",
-        "icon": "users"
+        "label": "GROWTH ANALYTICS",
+        "title": "Growth Analytics",
+        "description": "Track your audience growth, clip performance, and platform metrics with detailed weekly reports and actionable insights.",
+        "icon": "chart"
       },
       {
-        "label": "WEEKLY INSIGHTS",
-        "title": "Performance Reports",
-        "description": "Receive detailed weekly reports on clip performance, audience growth, and platform metrics with actionable recommendations.",
-        "icon": "file"
+        "label": "CONTENT OPTIMIZATION",
+        "title": "Content Optimization",
+        "description": "Every clip is edited, captioned, and timed using strategies optimized for TikTok and Instagram algorithms to maximize reach and engagement.",
+        "icon": "sparkles"
       }
     ]
   },

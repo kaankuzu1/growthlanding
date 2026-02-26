@@ -28,6 +28,89 @@ function KickIcon() {
   );
 }
 
+function DecorativeBlock({
+  size,
+  depthRatio = 0.4,
+  rotation,
+  className,
+  animationDuration,
+  animationDelay = 0,
+}: {
+  size: number;
+  depthRatio?: number;
+  rotation: string;
+  className: string;
+  animationDuration: number;
+  animationDelay?: number;
+}) {
+  const depth = size * depthRatio;
+  const radius = size * 0.3;
+
+  return (
+    <div
+      className={`absolute ${className}`}
+      style={{ transform: rotation }}
+    >
+      <div
+        className="animate-[float_ease-in-out_infinite]"
+        style={{
+          animationDuration: `${animationDuration}s`,
+          animationDelay: `${animationDelay}s`,
+          filter: "drop-shadow(4px 6px 12px rgba(155, 168, 184, 0.3))",
+        }}
+      >
+        <div
+          style={{
+            width: size,
+            height: size,
+            transformStyle: "preserve-3d",
+            position: "relative",
+          }}
+        >
+          {/* Front face */}
+          <div
+            style={{
+              position: "absolute",
+              width: size,
+              height: size,
+              borderRadius: radius,
+              background: "#9BA8B8",
+              transform: `translateZ(${depth / 2}px)`,
+              backfaceVisibility: "hidden",
+            }}
+          />
+          {/* Top face */}
+          <div
+            style={{
+              position: "absolute",
+              width: size,
+              height: depth,
+              borderRadius: `${radius}px ${radius}px 0 0`,
+              background: "#B0BEC5",
+              transform: `translateY(-${depth / 2}px) translateZ(0px) rotateX(90deg)`,
+              transformOrigin: "bottom center",
+              backfaceVisibility: "hidden",
+            }}
+          />
+          {/* Right face */}
+          <div
+            style={{
+              position: "absolute",
+              width: depth,
+              height: size,
+              borderRadius: `0 ${radius}px ${radius}px 0`,
+              background: "#7A8A9A",
+              transform: `translateX(${size - depth / 2}px) rotateY(90deg)`,
+              transformOrigin: "left center",
+              backfaceVisibility: "hidden",
+            }}
+          />
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export default function ImpactSection({ dict }: { dict: ImpactDict }) {
   return (
     <section id="about" className="py-16 md:py-24 bg-[#0E0E10]">
@@ -65,54 +148,53 @@ export default function ImpactSection({ dict }: { dict: ImpactDict }) {
           {/* Dashboard Column */}
           <FadeInWhenVisible direction="left" delay={0.2}>
             <div className="relative" style={{ perspective: "1200px" }}>
-              {/* Floating emojis around dashboard */}
-              {/* Top-right: rocket */}
-              <div
-                className="absolute -top-6 -right-4 text-3xl z-10 drop-shadow-[0_0_12px_rgba(145,70,255,0.7)] animate-[float_3s_ease-in-out_infinite]"
-                style={{ transform: "rotateY(20deg) rotateX(-10deg) rotate(-15deg)" }}
-              >
-                🚀
-              </div>
-              {/* Top-left: chart */}
-              <div
-                className="absolute -top-5 left-4 text-2xl z-10 drop-shadow-[0_0_10px_rgba(145,70,255,0.6)] animate-[float_3.5s_ease-in-out_0.4s_infinite]"
-                style={{ transform: "rotateY(-15deg) rotateX(-12deg) rotate(8deg)" }}
-              >
-                📊
-              </div>
-              {/* Right-middle: fire */}
-              <div
-                className="absolute top-1/2 -right-8 text-2xl z-10 drop-shadow-[0_0_10px_rgba(145,70,255,0.6)] animate-[float_2.8s_ease-in-out_0.8s_infinite]"
-                style={{ transform: "rotateY(25deg) rotateX(5deg) rotate(-5deg)" }}
-              >
-                🔥
-              </div>
-              {/* Bottom-right: star */}
-              <div
-                className="absolute -bottom-5 right-8 text-2xl z-10 drop-shadow-[0_0_10px_rgba(145,70,255,0.6)] animate-[float_3.2s_ease-in-out_1.2s_infinite]"
-                style={{ transform: "rotateY(18deg) rotateX(12deg) rotate(10deg)" }}
-              >
-                ⭐
-              </div>
-              {/* Left-middle: gaming controller */}
-              <div
-                className="absolute top-1/3 -left-7 text-2xl z-10 drop-shadow-[0_0_10px_rgba(145,70,255,0.6)] animate-[float_3.4s_ease-in-out_0.6s_infinite]"
-                style={{ transform: "rotateY(-20deg) rotateX(8deg) rotate(-12deg)" }}
-              >
-                🎮
-              </div>
+              {/* Decorative 3D blocks around dashboard */}
+              <DecorativeBlock
+                className="-top-6 -right-4 z-10"
+                rotation="rotateY(20deg) rotateX(-10deg) rotateZ(-15deg)"
+                size={48}
+                animationDuration={3}
+              />
+              <DecorativeBlock
+                className="-top-5 left-4 z-10"
+                rotation="rotateY(-15deg) rotateX(-12deg) rotateZ(8deg)"
+                size={36}
+                animationDuration={3.5}
+                animationDelay={0.4}
+              />
+              <DecorativeBlock
+                className="top-1/2 -right-8 z-10"
+                rotation="rotateY(25deg) rotateX(5deg) rotateZ(-5deg)"
+                size={42}
+                animationDuration={2.8}
+                animationDelay={0.8}
+              />
+              <DecorativeBlock
+                className="-bottom-5 right-8 z-10"
+                rotation="rotateY(18deg) rotateX(12deg) rotateZ(10deg)"
+                size={32}
+                animationDuration={3.2}
+                animationDelay={1.2}
+              />
+              <DecorativeBlock
+                className="top-1/3 -left-7 z-10"
+                rotation="rotateY(-20deg) rotateX(8deg) rotateZ(-12deg)"
+                size={55}
+                animationDuration={3.4}
+                animationDelay={0.6}
+              />
               {/* Shadow offset card for 3D depth */}
               <div
-                className="absolute inset-0 bg-white/[0.06] rounded-2xl border border-white/[0.08]"
+                className="absolute inset-0 bg-white/80 rounded-2xl shadow-xl shadow-black/10"
                 style={{
                   transform: "rotateY(-25deg) rotateX(10deg) translate3d(8px, 8px, -20px)",
                 }}
               />
               {/* CSS-built analytics dashboard card */}
-              <div className="bg-[#1F1F23] rounded-2xl border border-[#2F2F35] p-6 overflow-hidden" style={{ transform: "rotateY(-25deg) rotateX(10deg)", transformStyle: "preserve-3d" }}>
+              <div className="bg-white rounded-2xl border border-gray-200 shadow-2xl shadow-black/15 p-6 overflow-hidden" style={{ transform: "rotateY(-25deg) rotateX(10deg)", transformStyle: "preserve-3d" }}>
                 {/* Header row */}
                 <div className="flex items-center justify-between mb-6">
-                  <h3 className="text-gray-100 font-semibold text-lg">
+                  <h3 className="text-gray-900 font-semibold text-lg">
                     {dict.dashboardTitle}
                   </h3>
                   <div className="flex items-center gap-2">
@@ -126,9 +208,9 @@ export default function ImpactSection({ dict }: { dict: ImpactDict }) {
                   {dict.dashboardStats.map((stat) => (
                     <div
                       key={stat.label}
-                      className="bg-[#0E0E10] rounded-xl p-3 text-center"
+                      className="bg-gray-50 rounded-xl p-3 text-center"
                     >
-                      <div className="text-lg md:text-xl font-bold text-gray-100">
+                      <div className="text-lg md:text-xl font-bold text-gray-900">
                         <CountUp value={stat.value} />
                       </div>
                       <div className="text-xs text-gray-500 mt-1">
@@ -141,14 +223,12 @@ export default function ImpactSection({ dict }: { dict: ImpactDict }) {
                 {/* Bar chart visualization */}
                 <div className="flex items-end gap-[6px] h-32">
                   {BAR_HEIGHTS.map((height, i) => {
-                    const intensity = 0.3 + (i / (BAR_HEIGHTS.length - 1)) * 0.7;
                     return (
                       <div
                         key={i}
-                        className="flex-1 rounded-t-sm"
+                        className="flex-1 rounded-t-sm bg-brand-500"
                         style={{
                           height: `${height}%`,
-                          backgroundColor: `rgba(255, 255, 255, ${intensity})`,
                         }}
                       />
                     );
@@ -157,11 +237,11 @@ export default function ImpactSection({ dict }: { dict: ImpactDict }) {
               </div>
 
               {/* Overlapping growth badge */}
-              <div className="absolute -bottom-4 -left-4 flex items-center gap-2 bg-[#1F1F23] border border-[#2F2F35] rounded-full py-2 px-4 shadow-lg shadow-black/30" style={{ transform: "rotateY(25deg) rotateX(-10deg)" }}>
-                <div className="flex items-center justify-center w-6 h-6 rounded-full bg-green-500/20">
-                  <TrendingUp className="w-3.5 h-3.5 text-green-400" />
+              <div className="absolute -bottom-4 -left-4 flex items-center gap-2 bg-white border border-gray-200 rounded-full py-2 px-4 shadow-lg shadow-black/20" style={{ transform: "rotateY(25deg) rotateX(-10deg)" }}>
+                <div className="flex items-center justify-center w-6 h-6 rounded-full bg-green-500/15">
+                  <TrendingUp className="w-3.5 h-3.5 text-green-600" />
                 </div>
-                <span className="text-sm font-semibold text-green-400">
+                <span className="text-sm font-semibold text-green-600">
                   {dict.growthBadge}
                 </span>
               </div>

@@ -45,52 +45,34 @@
     "subtitle": "Yayıncılar için uçtan uca klip dağıtım ve büyüme hizmetleri.",
     "items": [
       {
-        "label": "OTOMATİK KLİPLEME",
+        "label": "KLİP DAĞITIMI",
         "title": "Klip Dağıtımı",
-        "description": "Clipper ağımız en iyi yayın anlarınızı yakalar ve maksimum erişim için TikTok, Instagram Reels ve YouTube Shorts'ta dağıtır.",
+        "description": "Clipper ağımız en iyi yayın anlarınızı yakalar ve tek bir kampanyadan TikTok, Instagram Reels ve YouTube Shorts'ta eşzamanlı olarak dağıtır.",
         "icon": "video"
       },
       {
-        "label": "ÇAPRAZ PLATFORM",
+        "label": "KAMPANYA YÖNETİMİ",
         "title": "Kampanya Yönetimi",
         "description": "Klip kampanyalarınızı platformlar arasında planlıyor, zamanlıyor ve optimize ediyoruz, böylece her gönderi doğru kitleye doğru zamanda ulaşır.",
         "icon": "share"
       },
       {
-        "label": "GERÇEK ZAMANLI VERİ",
-        "title": "Büyüme Analitiği",
-        "description": "Kitle büyümenizi, klip performansınızı ve platform metriklerinizi ayrıntılı raporlar ve uygulanabilir içgörülerle gerçek zamanlı takip edin.",
-        "icon": "chart"
-      },
-      {
-        "label": "ALGORİTMA ODAKLI",
-        "title": "İçerik Optimizasyonu",
-        "description": "Her klip, erişimi ve etkileşimi en üst düzeye çıkarmak için TikTok ve Instagram algoritmalarına optimize edilmiş stratejilerle düzenlenir, altyazılanır ve zamanlanır.",
-        "icon": "sparkles"
-      },
-      {
-        "label": "HER YERDE AYNI ANDA",
-        "title": "Çoklu Platform Erişimi",
-        "description": "İçeriklerinizi tek bir kampanyadan TikTok, Instagram Reels ve YouTube Shorts'ta eşzamanlı olarak dağıtın.",
-        "icon": "globe"
-      },
-      {
-        "label": "TRENDLERE HAZIR",
+        "label": "TREND TESPİTİ",
         "title": "Trend Tespiti",
         "description": "Ekibimiz trend sesleri, formatları ve hashtagleri takip ederek kliplerinizin popüler olanın dalgasını yakalamasını sağlar.",
         "icon": "trending"
       },
       {
-        "label": "KİTLENİZİ BÜYÜTÜN",
-        "title": "Topluluk Oluşturma",
-        "description": "İzleyicileri geri getiren tutarlı içerikle platformlar arasında sadık, etkileşimli bir kitle oluşturun.",
-        "icon": "users"
+        "label": "BÜYÜME ANALİTİĞİ",
+        "title": "Büyüme Analitiği",
+        "description": "Kitle büyümenizi, klip performansınızı ve platform metriklerinizi ayrıntılı haftalık raporlar ve uygulanabilir içgörülerle takip edin.",
+        "icon": "chart"
       },
       {
-        "label": "HAFTALIK RAPORLAR",
-        "title": "Performans Raporları",
-        "description": "Klip performansı, kitle büyümesi ve platform metrikleri hakkında uygulanabilir önerilerle ayrıntılı haftalık raporlar alın.",
-        "icon": "file"
+        "label": "İÇERİK OPTİMİZASYONU",
+        "title": "İçerik Optimizasyonu",
+        "description": "Her klip, erişimi ve etkileşimi en üst düzeye çıkarmak için TikTok ve Instagram algoritmalarına optimize edilmiş stratejilerle düzenlenir, altyazılanır ve zamanlanır.",
+        "icon": "sparkles"
       }
     ]
   },
