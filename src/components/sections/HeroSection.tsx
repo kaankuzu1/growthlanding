@@ -3,6 +3,8 @@
 import Container from "@/components/ui/Container";
 import FadeInWhenVisible from "@/components/animations/FadeInWhenVisible";
 import ReelCascade from "@/components/backgrounds/ReelCascade";
+import CalComLogo from "@/components/ui/CalComLogo";
+import { CALENDLY_URL } from "@/lib/constants";
 
 import { Play, Instagram, Twitch, Eye } from "lucide-react";
 import type { HeroDict } from "@/types";
@@ -419,7 +421,16 @@ export default function HeroSection({ dict }: { dict: HeroDict }) {
               {dict.description}
             </p>
 
-            <div className="mt-8">
+            <div className="mt-8 flex flex-col sm:flex-row items-center gap-4">
+              <a
+                href={CALENDLY_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`${btnBase} bg-white text-black font-semibold hover:bg-gray-100`}
+              >
+                <CalComLogo className="h-5 w-auto" />
+                {dict.ctaPrimary}
+              </a>
               <a
                 href="#how-it-works"
                 className={`${btnBase} border border-[#2F2F35] text-gray-300 hover:border-gray-500 hover:bg-[#1F1F23]`}

@@ -42,7 +42,7 @@ export default async function LocaleLayout({
     <>
       <SetLang locale={locale} />
       <Navbar dict={dict.nav} locale={locale} />
-      <main className="pt-16">{children}</main>
+      <main className="pt-14">{children}</main>
       <Footer dict={dict.footer} locale={locale} />
     </>
   );
