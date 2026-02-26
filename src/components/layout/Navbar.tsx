@@ -16,8 +16,8 @@ function NavCTAButton({ label, className = "" }: { label: string; className?: st
       rel="noopener noreferrer"
       className={`group relative block ${className}`}
     >
-      <span className="relative flex items-center justify-center gap-2 rounded-full px-4 py-2 text-sm font-semibold bg-white text-black hover:bg-gray-100 transition-colors duration-200">
-        <CalComLogo className="h-6 w-auto" />
+      <span className="relative flex items-center justify-center gap-1.5 rounded-full px-3.5 py-1.5 text-[13px] font-semibold bg-white text-black hover:bg-gray-100 transition-colors duration-200">
+        <CalComLogo className="h-5 w-auto" />
         <span>{label}</span>
       </span>
     </a>
@@ -38,22 +38,22 @@ export default function Navbar({ dict, locale }: { dict: NavDict; locale: string
   return (
     <header className={`fixed top-0 left-0 w-full z-50 bg-[#0E0E10]/80 backdrop-blur-md border-b transition-colors duration-300 ${scrolled ? "border-[#2F2F35]" : "border-transparent"}`}>
       <Container>
-        <div className="relative flex items-center justify-between h-16">
+        <div className="relative flex items-center justify-between h-14">
           {/* Logo */}
           <a href={`/${locale}`} className="flex items-center gap-2">
-            <span className="text-xl font-bold">
+            <span className="text-lg font-bold">
               <span className="text-white">Audience </span>
               <span className="text-brand-500 italic" style={{ fontFamily: 'var(--font-script)' }}>Labs</span>
             </span>
           </a>
 
           {/* Desktop Nav */}
-          <nav className="hidden md:flex items-center gap-1 bg-[#1F1F23] border border-[#2F2F35] rounded-full px-1.5 py-1 absolute left-1/2 -translate-x-1/2">
+          <nav className="hidden md:flex items-center gap-0.5 bg-[#1F1F23] border border-[#2F2F35] rounded-full px-1.5 py-0.5 absolute left-1/2 -translate-x-1/2">
             {dict.links.map((link) => (
               <a
                 key={link.href}
                 href={link.href}
-                className="text-sm text-gray-400 hover:text-gray-100 hover:bg-[#2F2F35] rounded-full px-4 py-1.5 transition-colors"
+                className="text-[13px] text-gray-400 hover:text-gray-100 hover:bg-[#2F2F35] rounded-full px-3.5 py-1 transition-colors"
               >
                 {link.label}
               </a>

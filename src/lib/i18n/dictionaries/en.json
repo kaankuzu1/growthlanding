@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "Audience Labs — Growth Agency for Kick & Twitch Streamers",
-    "description": "We distribute your best stream clips across TikTok and Instagram Reels through our clipper network — growing your audience with zero effort."
+    "title": "Audience Labs | Growth Agency for Kick & Twitch Streamers",
+    "description": "We distribute your best stream clips across TikTok and Instagram Reels through our clipper network, growing your audience with zero effort."
   },
   "nav": {
     "links": [
@@ -10,22 +10,22 @@
       { "label": "About Us", "href": "#founders" },
       { "label": "FAQ", "href": "#faq" }
     ],
-    "bookACall": "Book a Call"
+    "bookACall": "Book a Free Call"
   },
   "hero": {
     "headingStart": "Grow Your Stream ",
     "headingAccent": "Without Lifting a Finger",
-    "description": "We distribute your best stream clips across TikTok and Instagram Reels through our clipper network — growing your audience on autopilot.",
-    "ctaPrimary": "Book a Call",
+    "description": "We distribute your best stream clips across TikTok and Instagram Reels through our clipper network, growing your audience on autopilot.",
+    "ctaPrimary": "Book a Free Call",
     "ctaSecondary": "See How It Works"
   },
   "trustBar": {
-    "heading": "Chosen by top brands around the world"
+    "heading": "Trusted by Kick and Twitch streamers worldwide"
   },
   "impact": {
     "badge": "Our Promise",
-    "heading": "What We Guarantee",
-    "description": "Data-driven clip distribution built on real organic growth — no bots, no fake engagement. We commit to full transparency, weekly performance reports, and a strategy tailored to your stream.",
+    "heading": "What We Deliver",
+    "description": "Data-driven clip distribution built on real organic growth. No bots, no fake engagement. We commit to full transparency, weekly performance reports, and a strategy tailored to your stream.",
     "stats": [
       { "value": "100%", "label": "Organic Growth", "emoji": "🌱" },
       { "value": "$0", "label": "Upfront Cost", "emoji": "💰" }
@@ -53,7 +53,7 @@
       {
         "label": "CROSS-PLATFORM",
         "title": "Campaign Management",
-        "description": "We plan, schedule, and optimize your clip campaigns across platforms — so every post hits the right audience at the right time.",
+        "description": "We plan, schedule, and optimize your clip campaigns across platforms so every post hits the right audience at the right time.",
         "icon": "share"
       },
       {
@@ -103,7 +103,7 @@
       {
         "number": "01",
         "title": "You Stream",
-        "description": "Keep doing what you love on Kick or Twitch. Just focus on your content — we take care of the rest.",
+        "description": "Keep doing what you love on Kick or Twitch. Just focus on your content. We take care of the rest.",
         "icon": "video"
       },
       {
@@ -115,7 +115,7 @@
       {
         "number": "03",
         "title": "Your Audience Grows",
-        "description": "Watch your followers multiply across platforms while you keep streaming — growth on complete autopilot.",
+        "description": "Watch your followers multiply across platforms while you keep streaming. Growth on complete autopilot.",
         "icon": "trending-up"
       }
     ]
@@ -127,12 +127,12 @@
     "items": [
       {
         "title": "Performance-Based Model",
-        "description": "We only win when you win. Our pricing is tied to real results — views, followers, and engagement growth.",
+        "description": "We only win when you win. Our pricing is tied to real results: views, followers, and engagement growth.",
         "icon": "target"
       },
       {
         "title": "Zero Effort Required",
-        "description": "Keep streaming as usual. Our clipper network handles everything from clipping to posting — you don't lift a finger.",
+        "description": "Keep streaming as usual. Our clipper network handles everything from clipping to posting. You don't lift a finger.",
         "icon": "hand"
       },
       {
@@ -150,10 +150,10 @@
   "testimonials": {
     "badge": "Testimonials",
     "heading": "What Streamers Are Saying",
-    "subtitle": "Don't just take our word for it — hear from streamers who've grown with us.",
+    "subtitle": "Don't just take our word for it. Hear from streamers who've grown with us.",
     "items": [
       {
-        "quote": "Audience Labs completely changed my growth trajectory. I went from 200 to 2K average viewers in three months — all from clip traffic on TikTok.",
+        "quote": "Audience Labs completely changed my growth trajectory. I went from 200 to 2K average viewers in three months, all from clip traffic on TikTok.",
         "name": "Emre Yilmaz",
         "title": "Kick Partner, 2.1K avg viewers",
         "avatar": "EY",
@@ -275,40 +275,40 @@
     "items": [
       {
         "question": "Can I control what gets clipped and how accounts look?",
-        "answer": "Absolutely. During onboarding you tell us your preferences — whether accounts should look like fan pages, which streams or upcoming streams you want us to clip from, and any specific style guidelines. We handle everything based on your direction. If something goes up that you don't like, just reach out and we'll fix it right away."
+        "answer": "Absolutely. During onboarding you tell us your preferences: whether accounts should look like fan pages, which streams or upcoming streams you want us to clip from, and any specific style guidelines. We handle everything based on your direction. If something goes up that you don't like, just reach out and we'll fix it right away."
       },
       {
         "question": "Do I need to give you access to my social media accounts?",
-        "answer": "No. We create dedicated clip accounts built around your channel and manage everything through those. Your personal social media accounts stay completely under your control — you never need to share a password or grant access. You approve the account setup during onboarding, and we handle the rest."
+        "answer": "No. We create dedicated clip accounts built around your channel and manage everything through those. Your personal social media accounts stay completely under your control. You never need to share a password or grant access. You approve the account setup during onboarding, and we handle the rest."
       },
       {
         "question": "Is there a minimum contract or can I cancel anytime?",
-        "answer": "No long-term contracts. We work on a monthly basis and you can cancel at any time — no cancellation fees, no lock-in. We believe our results should keep you around, not a contract."
+        "answer": "No long-term contracts. We work on a monthly basis and you can cancel at any time. No cancellation fees, no lock-in. We believe our results should keep you around, not a contract."
       },
       {
         "question": "How much does it cost?",
         "answer": "Pricing depends on your stream volume, number of target platforms, and how many clips per week you want. We offer flexible plans starting from streamers just getting started to full-scale operations. Book a free discovery call and we'll recommend a plan that fits your goals and budget."
       },
       {
-        "question": "I'm a small streamer — is this worth it for me?",
-        "answer": "Absolutely. Small streamers often see the biggest percentage growth because short-form clips introduce you to audiences who'd never find your stream otherwise. You don't need a huge following to start — many of our best success stories began with under 50 average viewers."
+        "question": "I'm a small streamer. Is this worth it for me?",
+        "answer": "Absolutely. Small streamers often see the biggest percentage growth because short-form clips introduce you to audiences who'd never find your stream otherwise. You don't need a huge following to start. Many of our best success stories began with under 50 average viewers."
       },
       {
         "question": "Will the clips actually feel like my brand?",
-        "answer": "That's a priority for us. During onboarding we study your stream style, humor, and audience vibe. Our clippers are matched to creators whose content they genuinely understand. If a clip ever feels off-brand, flag it and we'll adjust — your voice is the one that matters."
+        "answer": "That's a priority for us. During onboarding we study your stream style, humor, and audience vibe. Our clippers are matched to creators whose content they genuinely understand. If a clip ever feels off-brand, flag it and we'll adjust. Your voice is the one that matters."
       },
       {
         "question": "What if my growth doesn't improve?",
-        "answer": "We share transparent analytics so you always see exactly what's working. If results aren't where they should be, we adjust strategy — different clip styles, posting times, or platforms. Most streamers see measurable growth within the first 2-4 weeks."
+        "answer": "We share transparent analytics so you always see exactly what's working. If results aren't where they should be, we adjust strategy: different clip styles, posting times, or platforms. Most streamers see measurable growth within the first 2-4 weeks."
       }
     ]
   },
   "cta": {
     "badge": "Let's Grow",
     "heading": "Ready to Grow Your Stream?",
-    "description": "Be among the first to tap into clip-powered growth before everyone else catches on. Book a free discovery call and get in on the ground floor.",
+    "description": "Book a free 15-minute discovery call. We'll review your stream, outline a custom clip strategy, and show you exactly how we can grow your audience.",
     "stats": [],
-    "button": "Book a Call"
+    "button": "Book a Free Call"
   },
   "privacy": {
     "title": "Privacy Policy",
