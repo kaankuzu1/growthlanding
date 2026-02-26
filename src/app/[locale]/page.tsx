@@ -9,6 +9,7 @@ import TestimonialsSection from "@/components/sections/TestimonialsSection";
 import AboutSection from "@/components/sections/AboutSection";
 import FAQSection from "@/components/sections/FAQSection";
 import CTASection from "@/components/sections/CTASection";
+import PlasmaWrapper from "@/components/backgrounds/PlasmaWrapper";
 
 export default async function Home({
   params,
@@ -21,8 +22,10 @@ export default async function Home({
   return (
     <>
       <HeroSection dict={dict.hero} />
-      <ServicesSection dict={dict.services} />
-      <SimplifySection dict={dict.simplify} />
+      <PlasmaWrapper>
+        <ServicesSection dict={dict.services} />
+        <SimplifySection dict={dict.simplify} />
+      </PlasmaWrapper>
       <ImpactSection dict={dict.impact} />
       <WhyChooseUsSection dict={dict.whyChoose} />
       <AboutSection dict={dict.aboutMe} />

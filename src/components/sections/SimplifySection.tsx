@@ -57,7 +57,7 @@ function StepCard({
 
 export default function SimplifySection({ dict }: { dict: SimplifyDict }) {
   return (
-    <section id="how-it-works" className="py-20 md:py-28 bg-[#0E0E10]">
+    <section id="how-it-works" className="py-20 md:py-28 bg-transparent">
       <Container>
         {/* Centered header */}
         <FadeInWhenVisible direction="up">
