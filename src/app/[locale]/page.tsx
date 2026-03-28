@@ -1,15 +1,14 @@
 import { type Locale } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/dictionaries";
+import StatusIndicator from "@/components/ui/StatusIndicator";
 import HeroSection from "@/components/sections/HeroSection";
-import ImpactSection from "@/components/sections/ImpactSection";
+import EngineSection from "@/components/sections/EngineSection";
 import ServicesSection from "@/components/sections/ServicesSection";
-import SimplifySection from "@/components/sections/SimplifySection";
-import WhyChooseUsSection from "@/components/sections/WhyChooseUsSection";
-import TestimonialsSection from "@/components/sections/TestimonialsSection";
+import ClipperNetworkSection from "@/components/sections/ClipperNetworkSection";
+import WorkflowSection from "@/components/sections/WorkflowSection";
 import AboutSection from "@/components/sections/AboutSection";
 import FAQSection from "@/components/sections/FAQSection";
 import CTASection from "@/components/sections/CTASection";
-import PlasmaWrapper from "@/components/backgrounds/PlasmaWrapper";
 
 export default async function Home({
   params,
@@ -21,17 +20,15 @@ export default async function Home({
 
   return (
     <>
-      <HeroSection dict={dict.hero} />
-      <PlasmaWrapper>
-        <ServicesSection dict={dict.services} />
-        <SimplifySection dict={dict.simplify} />
-      </PlasmaWrapper>
-      <ImpactSection dict={dict.impact} />
-      <WhyChooseUsSection dict={dict.whyChoose} />
+      <StatusIndicator dict={(dict as any).status || { statusLabel: "Live Status", trendingLabel: "Trending Now" }} />
+      <HeroSection dict={dict.hero} locale={locale} />
+      <EngineSection dict={(dict as any).engine} />
+      <ServicesSection dict={dict.services} />
+      <ClipperNetworkSection dict={(dict as any).clipperNetwork} />
+      <WorkflowSection dict={(dict as any).workflow} />
       <AboutSection dict={dict.aboutMe} />
-      {/* <TestimonialsSection dict={dict.testimonials} /> */}
       <FAQSection dict={dict.faq} />
-      <CTASection dict={dict.cta} />
+      <CTASection dict={(dict as any).cta} locale={locale} />
     </>
   );
 }

@@ -2,7 +2,6 @@
 
 import { motion } from "framer-motion";
 import Container from "@/components/ui/Container";
-import SectionBadge from "@/components/ui/SectionBadge";
 import FadeInWhenVisible from "@/components/animations/FadeInWhenVisible";
 import type { AboutMeDict, FounderEntry } from "@/types";
 
@@ -25,13 +24,12 @@ function FounderCard({
 }) {
   return (
     <FadeInWhenVisible direction="up" delay={delay}>
-      {/* Gradient border wrapper */}
-      <div className="h-full rounded-2xl bg-gradient-to-br from-brand-500/30 via-brand-600/15 to-brand-500/30 p-[1.5px]">
-        {/* Inner card */}
-        <div className="h-full rounded-2xl bg-[#1F1F23] p-6 md:p-8 relative overflow-hidden">
-          {/* Subtle contribution-grid dot pattern */}
+      {/* Surface nesting — No-Line Rule */}
+      <div className="h-full bg-surface-container-low p-1 rounded-xl">
+        <div className="h-full bg-surface-container-lowest p-6 md:p-8 relative overflow-hidden border border-outline-variant/5">
+          {/* Subtle dot pattern */}
           <div
-            className="absolute inset-0 pointer-events-none opacity-[0.03]"
+            className="absolute inset-0 pointer-events-none opacity-[0.02]"
             style={{
               backgroundImage:
                 "radial-gradient(circle, #fff 1px, transparent 1px)",
@@ -54,47 +52,40 @@ function FounderCard({
                 alt={`${founder.firstName} ${founder.surname}`}
                 width={80}
                 height={80}
-                className="w-20 h-20 rounded-full border-2 border-[#2F2F35] ring-2 ring-brand-500/20 object-cover"
+                className="w-20 h-20 rounded-full border-2 border-outline-variant/20 ring-2 ring-primary/20 object-cover"
               />
-              {/* GitHub badge overlay */}
-              <div className="absolute -bottom-1 -right-1 w-6 h-6 bg-[#1F1F23] rounded-full border-2 border-[#2F2F35] flex items-center justify-center">
-                <GitHubIcon className="w-3 h-3 text-gray-400" />
+              <div className="absolute -bottom-1 -right-1 w-6 h-6 bg-surface-container-lowest rounded-full border-2 border-outline-variant/20 flex items-center justify-center">
+                <GitHubIcon className="w-3 h-3 text-zinc-400" />
               </div>
             </motion.div>
 
-            {/* Text content */}
+            {/* Text */}
             <div>
-              {/* Name */}
-              <h2 className="text-2xl md:text-3xl font-bold text-white">
+              <h2 className="text-2xl md:text-3xl font-headline font-bold uppercase tracking-tighter text-white">
                 {founder.firstName}{" "}
-                <span
-                  className="text-[#9BA8B8] italic"
-                  style={{ fontFamily: "var(--font-script)" }}
-                >
-                  {founder.surname}
-                </span>
+                <span className="text-primary">{founder.surname}</span>
               </h2>
 
-              {/* GitHub handle */}
               <div className="flex items-center justify-center gap-2 mt-2">
-                <span className="w-2 h-2 rounded-full bg-emerald-500 shadow-[0_0_6px_rgba(16,185,129,0.6)]" />
-                <GitHubIcon className="w-3.5 h-3.5 text-gray-500" />
-                <span className="text-sm text-gray-500">
+                <span
+                  className="w-2 h-2 rounded-full bg-secondary"
+                  style={{ animation: "status-pulse-lime 2s ease-in-out infinite" }}
+                />
+                <GitHubIcon className="w-3.5 h-3.5 text-zinc-500" />
+                <span className="text-sm text-zinc-500">
                   @{founder.githubUsername}
                 </span>
               </div>
 
-              {/* Bio */}
-              <p className="text-gray-400 text-sm leading-relaxed mt-4">
+              <p className="text-on-surface-variant text-sm leading-relaxed mt-4">
                 {founder.bio}
               </p>
 
-              {/* GitHub button */}
               <a
                 href={`https://github.com/${founder.githubUsername}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 mt-6 px-4 py-2 bg-[#238636] hover:bg-[#2ea043] text-white text-sm font-medium rounded-lg transition-colors"
+                className="inline-flex items-center gap-2 mt-6 px-4 py-2 bg-secondary text-on-secondary text-sm font-headline font-bold uppercase tracking-tighter hover:scale-105 transition-transform"
               >
                 <GitHubIcon className="w-4 h-4" />
                 {githubButton}
@@ -109,18 +100,21 @@ function FounderCard({
 
 export default function AboutSection({ dict }: { dict: AboutMeDict }) {
   return (
-    <section id="founders" className="bg-[#0E0E10] py-16 md:py-24 relative overflow-hidden">
+    <section id="founders" className="py-24 md:py-32 px-8 relative overflow-hidden">
       {/* Background ambient glow */}
-      <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[350px] bg-brand-500/15 rounded-full blur-[80px] pointer-events-none" />
+      <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[350px] bg-primary/10 rounded-full blur-[80px] pointer-events-none" />
 
-      <Container className="relative z-10">
-        {/* Section badge */}
-        <div className="text-center mb-12">
-          <SectionBadge>{dict.badge}</SectionBadge>
+      <div className="max-w-7xl mx-auto relative z-10">
+        {/* Section heading */}
+        <div className="mb-16 md:mb-20">
+          <h2 className="font-headline text-4xl md:text-5xl font-black uppercase tracking-tighter text-white mb-4">
+            {dict.badge}
+          </h2>
+          <div className="w-24 h-1 bg-primary" />
         </div>
 
         {/* Founders grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl">
           {dict.founders.map((founder, index) => (
             <FounderCard
               key={founder.githubUsername}
@@ -130,7 +124,7 @@ export default function AboutSection({ dict }: { dict: AboutMeDict }) {
             />
           ))}
         </div>
-      </Container>
+      </div>
     </section>
   );
 }

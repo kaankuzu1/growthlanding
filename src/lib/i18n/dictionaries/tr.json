@@ -1,441 +1,301 @@
 {
   "metadata": {
-    "title": "Audience Labs | Kick & Twitch Yayıncıları İçin Büyüme Ajansı",
-    "description": "En iyi yayın kliplerinizi clipper ağımız aracılığıyla TikTok ve Instagram Reels'de dağıtıyoruz, hiçbir çaba harcamadan kitlenizi büyütüyoruz."
+    "title": "Audience Labs | Kick & Twitch Yay\u0131nc\u0131lar\u0131 \u0130\u00e7in B\u00fcy\u00fcme Ajans\u0131",
+    "description": "En iyi yay\u0131n kliplerinizi clipper a\u011f\u0131m\u0131z arac\u0131l\u0131\u011f\u0131yla TikTok ve Instagram Reels\u2019de da\u011f\u0131t\u0131yoruz, hi\u00e7bir \u00e7aba harcamadan kitlenizi b\u00fcy\u00fct\u00fcyoruz."
   },
   "nav": {
     "links": [
       { "label": "Hizmetler", "href": "#services" },
-      { "label": "Nasıl Çalışır", "href": "#how-it-works" },
-      { "label": "Hakkımızda", "href": "#founders" },
+      { "label": "Nas\u0131l \u00c7al\u0131\u015f\u0131r", "href": "#how-it-works" },
+      { "label": "Hakk\u0131m\u0131zda", "href": "#founders" },
       { "label": "SSS", "href": "#faq" }
     ],
-    "bookACall": "Ücretsiz Görüşme"
+    "bookACall": "Buyumeye Basla"
   },
   "hero": {
-    "headingStart": "Parmağınızı Bile Kıpırdatmadan ",
-    "headingAccent": "Yayınlarınızı Büyütün",
-    "description": "En iyi yayın kliplerinizi clipper ağımız aracılığıyla TikTok ve Instagram Reels'de dağıtıyoruz, kitlenizi otomatik pilotta büyütüyoruz.",
-    "ctaPrimary": "Ücretsiz Görüşme",
-    "ctaSecondary": "Nasıl Çalışır?"
+    "headingLine1": "Yayinin,",
+    "headingAccent": "Her Yerde.",
+    "description": "Twitch kliplerini elit clipper agimiz araciligiyla viral TikTok/Reels iceriklerine donusturuyoruz. Yeni nesil icerik ureticileri icin tasarlanmis yuksek etkili gosterim.",
+    "ctaPrimary": "Laboratuvara Katil",
+    "ctaSecondary": "Agi Gor",
+    "statValue": "12.4M",
+    "statLabel": "Uretilen Gosterim"
   },
-  "trustBar": {
-    "heading": "Kick ve Twitch yayıncıları tarafından tercih ediliyor"
+  "status": {
+    "statusLabel": "Canli Durum",
+    "trendingLabel": "Trendlerde"
   },
-  "impact": {
-    "badge": "Sözümüz",
-    "heading": "Neler Sunuyoruz",
-    "description": "Gerçek organik büyüme üzerine kurulu veriye dayalı klip dağıtımı. Bot yok, sahte etkileşim yok. Tam şeffaflık, haftalık performans raporları ve yayınınıza özel strateji taahhüt ediyoruz.",
-    "stats": [
-      { "value": "100%", "label": "Organik Büyüme", "emoji": "🌱" },
-      { "value": "$0", "label": "Ön Ödeme", "emoji": "💰" }
-    ],
-    "dashboardTitle": "Klip Performansı",
-    "dashboardStats": [
-      { "value": "2.4M", "label": "Toplam Görüntüleme" },
-      { "value": "847", "label": "Paylaşılan Klip" },
-      { "value": "12.3K", "label": "Yeni Takipçi" }
-    ],
-    "growthBadge": "+%47 büyüme"
+  "engine": {
+    "heading": "Motor",
+    "description": "Yapay zeka destekli is akisimiz, icerik donusumunun karmasik geometrisini yonetiyor. Siz yayina odaklanin.",
+    "inputLabel": "Giris: Yatay",
+    "outputLabel": "Cikis: Dikey 9:16",
+    "watermarkText": "SISTEM"
+  },
+  "clipperNetwork": {
+    "heading": "Elit Clipper Agi",
+    "clippers": [
+      { "name": "GhostEdit", "description": "Yuksek tempolu kurgu ve izleyici tutma konusunda usta.", "level": "LVL 04", "views": "2.4M", "progress": 85 },
+      { "name": "NeonSly", "description": "Ust duzey FPS icerik ureticileri icin gorsel efekt uzmani.", "level": "LVL 02", "views": "1.2M", "progress": 60 },
+      { "name": "Vortex.", "description": "Maksimum izleyici tutma ve yorum etkilesimi icin optimize.", "level": "LVL 05", "views": "5.8M", "progress": 95 },
+      { "name": "PulseCut", "description": "Gecislerde uzman zamanlamasiyla viral trend avcisi.", "level": "LVL 03", "views": "3.1M", "progress": 75 }
+    ]
+  },
+  "workflow": {
+    "heading": "Is Akisi",
+    "steps": [
+      { "number": "01", "title": "Yayin Yap", "description": "Twitch veya YouTube\u2019da elit oyun performansini veya eglenceli icerigini canli olarak yayinla. Biz verileri anlik olarak izliyoruz." },
+      { "number": "02", "title": "Kliple", "description": "Yapay zekamiz en yuksek etkilesim anlarini tespit eder ve Clipper Agini anlik cikartma icin harekete gecirir." },
+      { "number": "03", "title": "Dagit", "description": "Orijinal dikey icerikler, optimize edilmis zamanlama ile otomatik olarak TikTok, Reels ve Shorts\u2019a dagitilir." },
+      { "number": "04", "title": "Patlat", "description": "Viral donguler izleyicileri ana yayinina yonlendirirken takipci sayinin hizla artisini izle." }
+    ]
   },
   "services": {
     "badge": "Hizmetler",
-    "heading": "Kitlenizi Nasıl Büyütüyoruz",
-    "headingAccent": "Nasıl",
-    "subtitle": "Yayıncılar için uçtan uca klip dağıtım ve büyüme hizmetleri.",
+    "heading": "Kitlenizi Nas\u0131l B\u00fcy\u00fct\u00fcyoruz",
+    "headingAccent": "Nas\u0131l",
+    "subtitle": "Yay\u0131nc\u0131lar i\u00e7in u\u00e7tan uca klip da\u011f\u0131t\u0131m ve b\u00fcy\u00fcme hizmetleri.",
     "items": [
       {
-        "label": "KLİP DAĞITIMI",
-        "title": "Klip Dağıtımı",
-        "description": "Clipper ağımız en iyi yayın anlarınızı yakalar ve tek bir kampanyadan TikTok, Instagram Reels ve YouTube Shorts'ta eşzamanlı olarak dağıtır.",
+        "label": "KL\u0130P DA\u011eITIMI",
+        "title": "Klip Da\u011f\u0131t\u0131m\u0131",
+        "description": "Clipper a\u011f\u0131m\u0131z en iyi yay\u0131n anlar\u0131n\u0131z\u0131 yakalar ve tek bir kampanyadan TikTok, Instagram Reels ve YouTube Shorts\u2019ta e\u015fzamanl\u0131 olarak da\u011f\u0131t\u0131r.",
         "icon": "video"
       },
       {
-        "label": "KAMPANYA YÖNETİMİ",
-        "title": "Kampanya Yönetimi",
-        "description": "Klip kampanyalarınızı platformlar arasında planlıyor, zamanlıyor ve optimize ediyoruz, böylece her gönderi doğru kitleye doğru zamanda ulaşır.",
+        "label": "KAMPANYA Y\u00d6NET\u0130M\u0130",
+        "title": "Kampanya Y\u00f6netimi",
+        "description": "Klip kampanyalar\u0131n\u0131z\u0131 platformlar aras\u0131nda planl\u0131yor, zamanl\u0131yor ve optimize ediyoruz, b\u00f6ylece her g\u00f6nderi do\u011fru kitleye do\u011fru zamanda ula\u015f\u0131r.",
         "icon": "share"
       },
       {
-        "label": "TREND TESPİTİ",
+        "label": "TREND TESP\u0130T\u0130",
         "title": "Trend Tespiti",
-        "description": "Ekibimiz trend sesleri, formatları ve hashtagleri takip ederek kliplerinizin popüler olanın dalgasını yakalamasını sağlar.",
+        "description": "Ekibimiz trend sesleri, formatlar\u0131 ve hashtagleri takip ederek kliplerinizin pop\u00fcler olan\u0131n dalgas\u0131n\u0131 yakalamas\u0131n\u0131 sa\u011flar.",
         "icon": "trending"
       },
       {
-        "label": "BÜYÜME ANALİTİĞİ",
-        "title": "Büyüme Analitiği",
-        "description": "Kitle büyümenizi, klip performansınızı ve platform metriklerinizi ayrıntılı haftalık raporlar ve uygulanabilir içgörülerle takip edin.",
+        "label": "B\u00dcY\u00dcME ANAL\u0130T\u0130\u011e\u0130",
+        "title": "B\u00fcy\u00fcme Analiti\u011fi",
+        "description": "Kitle b\u00fcy\u00fcmenizi, klip performans\u0131n\u0131z\u0131 ve platform metriklerinizi ayr\u0131nt\u0131l\u0131 haftal\u0131k raporlar ve uygulanabilir i\u00e7g\u00f6r\u00fclerle takip edin.",
         "icon": "chart"
       },
       {
-        "label": "İÇERİK OPTİMİZASYONU",
-        "title": "İçerik Optimizasyonu",
-        "description": "Her klip, erişimi ve etkileşimi en üst düzeye çıkarmak için TikTok ve Instagram algoritmalarına optimize edilmiş stratejilerle düzenlenir, altyazılanır ve zamanlanır.",
+        "label": "\u0130\u00c7ER\u0130K OPT\u0130M\u0130ZASYONU",
+        "title": "\u0130\u00e7erik Optimizasyonu",
+        "description": "Her klip, eri\u015fimi ve etkile\u015fimi en \u00fcst d\u00fczeye \u00e7\u0131karmak i\u00e7in TikTok ve Instagram algoritmalar\u0131na optimize edilmi\u015f stratejilerle d\u00fczenlenir, altyaz\u0131lan\u0131r ve zamanlan\u0131r.",
         "icon": "sparkles"
-      }
-    ]
-  },
-  "simplify": {
-    "badge": "3 BASİT ADIM",
-    "headingPrefix": "",
-    "headingAccent": "Labs",
-    "headingSuffix": " Nasıl Çalışır?",
-    "steps": [
-      {
-        "number": "01",
-        "title": "Yayın Yapın",
-        "description": "Kick veya Twitch'te sevdiğiniz işi yapmaya devam edin. Sadece içeriğinize odaklanın. Gerisini biz hallederiz.",
-        "icon": "video"
-      },
-      {
-        "number": "02",
-        "title": "Klipliyoruz & Dağıtıyoruz",
-        "description": "Clipper ağımız en iyi anlarınızı tespit eder ve TikTok ile Instagram Reels'e dağıtır.",
-        "icon": "scissors"
-      },
-      {
-        "number": "03",
-        "title": "Kitleniz Büyüyor",
-        "description": "Siz yayın yapmaya devam ederken takipçilerinizin platformlar genelinde katlanarak arttığını izleyin. Tamamen otomatik büyüme.",
-        "icon": "trending-up"
-      }
-    ]
-  },
-  "whyChoose": {
-    "badge": "Farkımız",
-    "heading": "Neden Audience Labs?",
-    "subtitle": "Gerçek kitle büyümesi isteyen yayıncılar için özel olarak tasarlandı.",
-    "items": [
-      {
-        "title": "Performansa Dayalı Model",
-        "description": "Biz ancak siz kazandığınızda kazanırız. Fiyatlandırmamız gerçek sonuçlara bağlıdır: görüntüleme, takipçi ve etkileşim büyümesi.",
-        "icon": "target"
-      },
-      {
-        "title": "Sıfır Çaba Gerektirir",
-        "description": "Her zamanki gibi yayın yapmaya devam edin. Clipper ağımız klip çıkarmadan paylaşıma kadar her şeyi halleder. Parmağınızı bile kıpırdatmazsınız.",
-        "icon": "hand"
-      },
-      {
-        "title": "Algoritma Optimizasyonlu İçerik",
-        "description": "Her klip, TikTok ve Instagram algoritmaları için optimize edilmiş stratejilerle düzenlenir, altyazılı hale getirilir ve paylaşılır.",
-        "icon": "sparkles"
-      },
-      {
-        "title": "Ölçeklenebilir Clipper Ağı",
-        "description": "Dağıtılmış clipper ağımız yayınınızla birlikte ölçeklenir ve hiçbir viral anın kaçırılmamasını sağlar.",
-        "icon": "network"
-      }
-    ]
-  },
-  "testimonials": {
-    "badge": "Referanslar",
-    "heading": "Yayıncılar Ne Diyor?",
-    "subtitle": "Sadece bize güvenmeyin. Bizimle büyüyen yayıncılardan dinleyin.",
-    "items": [
-      {
-        "quote": "Audience Labs büyüme yolculuğumu tamamen değiştirdi. Üç ayda ortalama 200 izleyiciden 2K'ya çıktım, hepsi TikTok'taki klip trafiğinden.",
-        "name": "Emre Yilmaz",
-        "title": "Kick Partner, 2.1K ort. izleyici",
-        "avatar": "EY",
-        "avatarColor": "#9146FF",
-        "rating": 4.9
-      },
-      {
-        "quote": "Kendi içeriklerimi kırpmak için saatler harcıyordum. Şimdi sadece yayın yapıyorum ve ekipleri her şeyi hallediyor. Instagram Reels'im bir gecede patladı.",
-        "name": "Priya Sharma",
-        "title": "Twitch Affiliate, 800 ort. izleyici",
-        "avatar": "PS",
-        "avatarColor": "#2563EB",
-        "rating": 4.9
-      },
-      {
-        "quote": "Clipper ağı inanılmaz. Bir haftada 40 klip paylaştılar ve üçü 500K görüntülemeyi aştı. Takipçi sayım üçe katlandı.",
-        "name": "Marcus Reed",
-        "title": "Kick Partner, 5K ort. izleyici",
-        "avatar": "MR",
-        "avatarColor": "#10B981",
-        "rating": 5.0
-      },
-      {
-        "quote": "Bir yıl boyunca TikTok'u kendim denedim, sıfır sonuç. Audience Labs ilk ayımda 1M görüntüleme aldırdı. Çok daha önce başlamalıydım.",
-        "name": "Tyler Brooks",
-        "title": "Twitch Partner, 3.2K ort. izleyici",
-        "avatar": "TB",
-        "avatarColor": "#F59E0B",
-        "rating": 4.8
-      },
-      {
-        "quote": "Analitik panelleri tam olarak hangi kliplerin en çok takipçi getirdiğini gösteriyor. Kimseyi işe almadan bir büyüme ekibine sahip olmak gibi.",
-        "name": "Elif Kaya",
-        "title": "Kick Affiliate, 600 ort. izleyici",
-        "avatar": "EK",
-        "avatarColor": "#EF4444",
-        "rating": 5.0
-      },
-      {
-        "quote": "Başta şüpheciydim ama sonuçlar kendini anlatıyor. 60 günde %280 takipçi büyümesi ve yayınımda hiçbir şeyi değiştirmedim.",
-        "name": "Can Demir",
-        "title": "Twitch Partner, 8K ort. izleyici",
-        "avatar": "CD",
-        "avatarColor": "#8B5CF6",
-        "rating": 4.9
-      },
-      {
-        "quote": "Audience Labs yayınlarımda klip değerinde olduğunu fark etmediğim anlar buldu. Editörleri viral olan şeyler için harika bir göze sahip.",
-        "name": "Zeynep Aksoy",
-        "title": "Kick Partner, 1.5K ort. izleyici",
-        "avatar": "ZA",
-        "avatarColor": "#EC4899",
-        "rating": 4.9
-      },
-      {
-        "quote": "Algoritma optimizasyonu gerçek. Kliplerim, kendim paylaştığıma göre sürekli 3-5 kat daha fazla görüntüleme alıyor. Bu adamlar platformları biliyor.",
-        "name": "Ryan Nakamura",
-        "title": "Twitch Affiliate, 400 ort. izleyici",
-        "avatar": "RN",
-        "avatarColor": "#06B6D4",
-        "rating": 5.0
-      },
-      {
-        "quote": "Daha önce üç farklı klip servisiyle çalıştım. Audience Labs, izleyici sayımda gerçekten fark yaratan tek şirket oldu.",
-        "name": "Chloe Williams",
-        "title": "Kick Partner, 4K ort. izleyici",
-        "avatar": "CW",
-        "avatarColor": "#F97316",
-        "rating": 4.8
-      },
-      {
-        "quote": "TikTok'um iki ayda 2K'dan 85K takipçiye ulaştı. Artık etkinliklerde kliplerimden beni bulan insanlar tarafından tanınıyorum.",
-        "name": "Omar Hassan",
-        "title": "Twitch Partner, 6K ort. izleyici",
-        "avatar": "OH",
-        "avatarColor": "#14B8A6",
-        "rating": 4.9
-      },
-      {
-        "quote": "Sıfır çaba modeli beni ikna eden şey oldu. Gerçekten sadece yayın yapıyorum ve gerisini onlar hallediyor. Kanalım için yaptığım en iyi yatırım.",
-        "name": "Rachel Kim",
-        "title": "Kick Affiliate, 900 ort. izleyici",
-        "avatar": "RK",
-        "avatarColor": "#A855F7",
-        "rating": 5.0
-      },
-      {
-        "quote": "Audience Labs ilk marka anlaşmamı yapmama yardımcı oldu. Sponsorlar klip görüntülemelerimi gördü ve doğrudan ulaştı. Bu tek başına hizmetin 10 katını ödedi.",
-        "name": "Burak Sahin",
-        "title": "Twitch Partner, 3.5K ort. izleyici",
-        "avatar": "BS",
-        "avatarColor": "#3B82F6",
-        "rating": 4.9
       }
     ]
   },
   "aboutMe": {
     "badge": "Kurucular",
-    "githubButton": "GitHub'da Görüntüle",
+    "githubButton": "GitHub\u2019da G\u00f6r\u00fcnt\u00fcle",
     "founders": [
       {
         "firstName": "Kaan",
         "surname": "KUZU",
         "githubUsername": "kaankuzu1",
-        "bio": "Ajansların ölçeklenmesine yardımcı otomasyonlar oluşturmaya ve makine öğrenimi modelleri geliştirmeye tutkuyla bağlı full-stack mühendis. Audience Labs'ı akıllı otomasyon, veriye dayalı dağıtım ve yetenekli bir clipper ağını birleştirerek yayınları viral anlara dönüştürmek için kurdum."
+        "bio": "Ajanslar\u0131n \u00f6l\u00e7eklenmesine yard\u0131mc\u0131 otomasyonlar olu\u015fturmaya ve makine \u00f6\u011frenimi modelleri geli\u015ftirmeye tutkuyla ba\u011fl\u0131 full-stack m\u00fchendis. Audience Labs\u2019\u0131 ak\u0131ll\u0131 otomasyon, veriye dayal\u0131 da\u011f\u0131t\u0131m ve yetenekli bir clipper a\u011f\u0131n\u0131 birle\u015ftirerek yay\u0131nlar\u0131 viral anlara d\u00f6n\u00fc\u015ft\u00fcrmek i\u00e7in kurdum."
       },
       {
         "firstName": "Mehmet Eren",
         "surname": "ALPAN",
         "githubUsername": "segv0",
-        "bio": "Siber güvenlik uzmanı ve eski FRC robotik takımı kaptanı; dayanıklı sistemler inşa etme tutkusuyla hareket eder. Audience Labs'ta güvenlik altyapısı ve ağ mimarisine liderlik ederek clipper platformunun güvenli ve güvenilir şekilde ölçeklenmesini sağlar."
+        "bio": "Siber g\u00fcvenlik uzman\u0131 ve eski FRC robotik tak\u0131m\u0131 kaptan\u0131; dayan\u0131kl\u0131 sistemler in\u015fa etme tutkusuyla hareket eder. Audience Labs\u2019ta g\u00fcvenlik altyap\u0131s\u0131 ve a\u011f mimarisine liderlik ederek clipper platformunun g\u00fcvenli ve g\u00fcvenilir \u015fekilde \u00f6l\u00e7eklenmesini sa\u011flar."
       }
     ]
   },
   "faq": {
     "badge": "SSS",
-    "heading": "Sıkça Sorulan Sorular",
-    "subtitle": "Audience Labs ile yayınınızı büyütmek hakkında bilmeniz gereken her şey.",
+    "heading": "S\u0131k\u00e7a Sorulan Sorular",
+    "subtitle": "Audience Labs ile yay\u0131n\u0131n\u0131z\u0131 b\u00fcy\u00fctmek hakk\u0131nda bilmeniz gereken her \u015fey.",
     "items": [
       {
-        "question": "Nelerin kliplendiğini ve hesapların nasıl göründüğünü kontrol edebilir miyim?",
-        "answer": "Kesinlikle. Onboarding sürecinde tercihlerinizi belirliyorsunuz: hesapların fan sayfası gibi mi görünmesini istediğinizi, hangi yayınlardan veya yaklaşan yayınlardan klip çıkarmamız gerektiğini ve özel stil kurallarınızı. Her şeyi sizin yönlendirmenize göre yönetiyoruz. Hoşunuza gitmeyen bir şey paylaşılırsa bize ulaşın, hemen düzeltelim."
+        "question": "Nelerin kliplendi\u011fini ve hesaplar\u0131n nas\u0131l g\u00f6r\u00fcnd\u00fc\u011f\u00fcn\u00fc kontrol edebilir miyim?",
+        "answer": "Kesinlikle. Onboarding s\u00fcrecinde tercihlerinizi belirliyorsunuz: hesaplar\u0131n fan sayfas\u0131 gibi mi g\u00f6r\u00fcnmesini istedi\u011finizi, hangi yay\u0131nlardan veya yakla\u015fan yay\u0131nlardan klip \u00e7\u0131karmam\u0131z gerekti\u011fini ve \u00f6zel stil kurallar\u0131n\u0131z\u0131. Her \u015feyi sizin y\u00f6nlendirmenize g\u00f6re y\u00f6netiyoruz. Ho\u015funuza gitmeyen bir \u015fey payla\u015f\u0131l\u0131rsa bize ula\u015f\u0131n, hemen d\u00fczeltelim."
       },
       {
-        "question": "Sosyal medya hesaplarıma erişim vermem gerekiyor mu?",
-        "answer": "Hayır. Kanalınız için özel klip hesapları oluşturuyor ve tüm dağıtımı bu hesaplar üzerinden yönetiyoruz. Kişisel sosyal medya hesaplarınız tamamen sizin kontrolünüzde kalır. Şifre paylaşmanıza veya erişim vermenize gerek yok. Onboarding sürecinde hesap yapısını onaylarsınız, gerisini biz hallederiz."
+        "question": "Sosyal medya hesaplar\u0131ma eri\u015fim vermem gerekiyor mu?",
+        "answer": "Hay\u0131r. Kanal\u0131n\u0131z i\u00e7in \u00f6zel klip hesaplar\u0131 olu\u015fturuyor ve t\u00fcm da\u011f\u0131t\u0131m\u0131 bu hesaplar \u00fczerinden y\u00f6netiyoruz. Ki\u015fisel sosyal medya hesaplar\u0131n\u0131z tamamen sizin kontrol\u00fcn\u00fczde kal\u0131r. \u015eifre payla\u015fman\u0131za veya eri\u015fim vermenize gerek yok. Onboarding s\u00fcrecinde hesap yap\u0131s\u0131n\u0131 onaylars\u0131n\u0131z, gerisini biz hallederiz."
       },
       {
-        "question": "Minimum sözleşme süresi var mı, istediğim zaman iptal edebilir miyim?",
-        "answer": "Uzun vadeli sözleşme yok. Aylık bazda çalışıyoruz ve istediğiniz zaman iptal edebilirsiniz. İptal ücreti yok, bağlayıcılık yok. Sizi tutması gereken bir sözleşme değil, sonuçlarımız olmalı."
+        "question": "Minimum s\u00f6zle\u015fme s\u00fcresi var m\u0131, istedi\u011fim zaman iptal edebilir miyim?",
+        "answer": "Uzun vadeli s\u00f6zle\u015fme yok. Ayl\u0131k bazda \u00e7al\u0131\u015f\u0131yoruz ve istedi\u011finiz zaman iptal edebilirsiniz. \u0130ptal \u00fccreti yok, ba\u011flay\u0131c\u0131l\u0131k yok. Sizi tutmas\u0131 gereken bir s\u00f6zle\u015fme de\u011fil, sonu\u00e7lar\u0131m\u0131z olmal\u0131."
       },
       {
-        "question": "Fiyatlandırma nasıl?",
-        "answer": "Fiyatlandırma yayın hacminize, hedef platform sayısına ve haftalık istediğiniz klip sayısına göre değişir. Yeni başlayan yayıncılardan tam ölçekli operasyonlara kadar esnek planlar sunuyoruz. Ücretsiz keşif görüşmesi ayarlayın, hedeflerinize ve bütçenize uygun bir plan önerelim."
+        "question": "Fiyatland\u0131rma nas\u0131l?",
+        "answer": "Fiyatland\u0131rma yay\u0131n hacminize, hedef platform say\u0131s\u0131na ve haftal\u0131k istedi\u011finiz klip say\u0131s\u0131na g\u00f6re de\u011fi\u015fir. Yeni ba\u015flayan yay\u0131nc\u0131lardan tam \u00f6l\u00e7ekli operasyonlara kadar esnek planlar sunuyoruz. \u00dccretsiz ke\u015fif g\u00f6r\u00fc\u015fmesi ayarlay\u0131n, hedeflerinize ve b\u00fct\u00e7enize uygun bir plan \u00f6nerelim."
       },
       {
-        "question": "Küçük bir yayıncıyım. Bu benim için değer mi?",
-        "answer": "Kesinlikle. Küçük yayıncılar genellikle en büyük yüzdelik büyümeyi görür, çünkü kısa form klipler sizi yayınınızı asla bulamayacak kitlelere tanıtır. Başlamak için büyük bir takipçi kitlesine ihtiyacınız yok. En iyi başarı hikayelerimizin çoğu ortalama 50'nin altında izleyiciyle başladı."
+        "question": "K\u00fc\u00e7\u00fck bir yay\u0131nc\u0131y\u0131m. Bu benim i\u00e7in de\u011fer mi?",
+        "answer": "Kesinlikle. K\u00fc\u00e7\u00fck yay\u0131nc\u0131lar genellikle en b\u00fcy\u00fck y\u00fczdelik b\u00fcy\u00fcmeyi g\u00f6r\u00fcr, \u00e7\u00fcnk\u00fc k\u0131sa form klipler sizi yay\u0131n\u0131n\u0131z\u0131 asla bulamayacak kitlelere tan\u0131t\u0131r. Ba\u015flamak i\u00e7in b\u00fcy\u00fck bir takip\u00e7i kitlesine ihtiyac\u0131n\u0131z yok. En iyi ba\u015far\u0131 hikayelerimizin \u00e7o\u011fu ortalama 50\u2019nin alt\u0131nda izleyiciyle ba\u015flad\u0131."
       },
       {
-        "question": "Klipler gerçekten benim tarzımı yansıtacak mı?",
-        "answer": "Bu bizim için öncelik. Onboarding sürecinde yayın tarzınızı, mizahınızı ve kitle enerjinizi inceliyoruz. Clipper'larımız, içeriklerini gerçekten anlayan yaratıcılarla eşleştirilir. Bir klip markanıza uymuyorsa bildirin, hemen ayarlarız. Önemli olan sizin sesiniz."
+        "question": "Klipler ger\u00e7ekten benim tarz\u0131m\u0131 yans\u0131tacak m\u0131?",
+        "answer": "Bu bizim i\u00e7in \u00f6ncelik. Onboarding s\u00fcrecinde yay\u0131n tarz\u0131n\u0131z\u0131, mizah\u0131n\u0131z\u0131 ve kitle enerjinizi inceliyoruz. Clipper\u2019lar\u0131m\u0131z, i\u00e7eriklerini ger\u00e7ekten anlayan yarat\u0131c\u0131larla e\u015fle\u015ftirilir. Bir klip markan\u0131za uymuyorsa bildirin, hemen ayarlar\u0131z. \u00d6nemli olan sizin sesiniz."
       },
       {
-        "question": "Ya büyümem artmazsa?",
-        "answer": "Şeffaf analizler paylaşıyoruz, böylece neyin işe yaradığını her zaman görebilirsiniz. Sonuçlar olması gereken yerde değilse strateji değiştiriyoruz: farklı klip stilleri, paylaşım saatleri veya platformlar. Çoğu yayıncı ilk 2-4 hafta içinde ölçülebilir büyüme görüyor."
+        "question": "Ya b\u00fcy\u00fcmem artmazsa?",
+        "answer": "\u015eeffaf analizler payla\u015f\u0131yoruz, b\u00f6ylece neyin i\u015fe yarad\u0131\u011f\u0131n\u0131 her zaman g\u00f6rebilirsiniz. Sonu\u00e7lar olmas\u0131 gereken yerde de\u011filse strateji de\u011fi\u015ftiriyoruz: farkl\u0131 klip stilleri, payla\u015f\u0131m saatleri veya platformlar. \u00c7o\u011fu yay\u0131nc\u0131 ilk 2-4 hafta i\u00e7inde \u00f6l\u00e7\u00fclebilir b\u00fcy\u00fcme g\u00f6r\u00fcyor."
       }
     ]
   },
   "cta": {
-    "badge": "Hadi Büyüyelim",
-    "heading": "Yayınınızı Büyütmeye Hazır mısınız?",
-    "description": "15 dakikalık ücretsiz keşif görüşmesi ayarlayın. Yayınınızı inceleyecek, size özel bir klip stratejisi çıkaracak ve kitlenizi nasıl büyütebileceğimizi göstereceğiz.",
+    "headingLine1": "Hazir misin?",
+    "headingAccent": "Viral Dongu!",
+    "ctaPrimary": "Simdi Basvur",
+    "ctaSecondary": "Demo Ayarla",
+    "badge": "Buyuyelim",
+    "heading": "Yayinini Buyutmeye Hazir misin?",
+    "description": "Ucretsiz 15 dakikalik kesif gorusmesi ayarla. Yayinini inceleyip ozel bir klip stratejisi sunalim.",
     "stats": [],
-    "button": "Ücretsiz Görüşme"
+    "button": "Ucretsiz Gorusme Ayarla"
   },
   "privacy": {
-    "title": "Gizlilik Politikası",
-    "lastUpdated": "Son güncelleme: 22 Şubat 2026",
+    "title": "Gizlilik Politikas\u0131",
+    "lastUpdated": "Son g\u00fcncelleme: 22 \u015eubat 2026",
     "sections": [
       {
-        "heading": "Giriş",
-        "content": "Mindora Systems & Growth bünyesinde faaliyet gösteren Audience Labs, içerik dağıtım hizmetlerimizi kullanan yayıncıların ve ziyaretçilerin gizliliğini korumaya kararlıdır. Bu Gizlilik Politikası, platformumuz ve hizmetlerimizle etkileşime girdiğinizde bilgilerinizi nasıl topladığımızı, kullandığımızı ve koruduğumuzu açıklar."
+        "heading": "Giri\u015f",
+        "content": "Mindora Systems & Growth b\u00fcnyesinde faaliyet g\u00f6steren Audience Labs, i\u00e7erik da\u011f\u0131t\u0131m hizmetlerimizi kullanan yay\u0131nc\u0131lar\u0131n ve ziyaret\u00e7ilerin gizlili\u011fini korumaya kararl\u0131d\u0131r. Bu Gizlilik Politikas\u0131, platformumuz ve hizmetlerimizle etkile\u015fime girdi\u011finizde bilgilerinizi nas\u0131l toplad\u0131\u011f\u0131m\u0131z\u0131, kulland\u0131\u011f\u0131m\u0131z\u0131 ve korudu\u011fumuzu a\u00e7\u0131klar."
       },
       {
-        "heading": "Topladığımız Bilgiler",
-        "content": "Doğrudan sağladığınız sınırlı bir bilgi seti topluyoruz: e-posta adresiniz, yayın kanal adınız ve platform bağlantılarınız (örn. Kick veya Twitch profil URL'leriniz). Ayrıca web sitemizi ziyaret ettiğinizde IP adresleri, tarayıcı türü ve cihaz bilgileri gibi temel teknik veriler topluyoruz. Şifrelerinizi, giriş bilgilerinizi toplamıyoruz ve kişisel yayın veya sosyal medya hesaplarınıza erişim talep etmiyoruz."
+        "heading": "Toplad\u0131\u011f\u0131m\u0131z Bilgiler",
+        "content": "Do\u011frudan sa\u011flad\u0131\u011f\u0131n\u0131z s\u0131n\u0131rl\u0131 bir bilgi seti topluyoruz: e-posta adresiniz, yay\u0131n kanal ad\u0131n\u0131z ve platform ba\u011flant\u0131lar\u0131n\u0131z (\u00f6rn. Kick veya Twitch profil URL\u2019leriniz). Ayr\u0131ca web sitemizi ziyaret etti\u011finizde IP adresleri, taray\u0131c\u0131 t\u00fcr\u00fc ve cihaz bilgileri gibi temel teknik veriler topluyoruz. \u015eifrelerinizi, giri\u015f bilgilerinizi toplam\u0131yoruz ve ki\u015fisel yay\u0131n veya sosyal medya hesaplar\u0131n\u0131za eri\u015fim talep etmiyoruz."
       },
       {
-        "heading": "Bilgilerinizi Nasıl Kullanıyoruz",
-        "content": "Bilgilerinizi içerik dağıtım hizmetlerimizi sağlamak ve yönetmek, kampanyalarınız ve hesabınız hakkında sizinle iletişim kurmak, ödemeleri işlemek ve faturalandırmayı yönetmek ve yasal yükümlülüklerimizi yerine getirmek için kullanıyoruz. Kişisel bilgilerinizi üçüncü taraflara satmıyoruz."
+        "heading": "Bilgilerinizi Nas\u0131l Kullan\u0131yoruz",
+        "content": "Bilgilerinizi i\u00e7erik da\u011f\u0131t\u0131m hizmetlerimizi sa\u011flamak ve y\u00f6netmek, kampanyalar\u0131n\u0131z ve hesab\u0131n\u0131z hakk\u0131nda sizinle ileti\u015fim kurmak, \u00f6demeleri i\u015flemek ve faturaland\u0131rmay\u0131 y\u00f6netmek ve yasal y\u00fck\u00fcml\u00fcl\u00fcklerimizi yerine getirmek i\u00e7in kullan\u0131yoruz. Ki\u015fisel bilgilerinizi \u00fc\u00e7\u00fcnc\u00fc taraflara satm\u0131yoruz."
       },
       {
-        "heading": "İçerik Dağıtımı ve Üçüncü Taraflar",
-        "content": "Hizmetimiz aracılığıyla dağıtılan klipler, kamuya açık yayın içeriklerinden elde edilir. Dağıtım, kendi hesaplarını işleten bağımsız üçüncü taraf klip oluşturucuları tarafından gerçekleştirilebilir. Audience Labs bu dağıtım ağını koordine eder ancak dağıtım için kullanılan hesapları kontrol etmez. Bu bağımsız üçüncü taraflarla hiçbir kişisel kullanıcı verisi paylaşılmaz — yalnızca kamuya açık yayın içeriği kullanılır."
+        "heading": "\u0130\u00e7erik Da\u011f\u0131t\u0131m\u0131 ve \u00dc\u00e7\u00fcnc\u00fc Taraflar",
+        "content": "Hizmetimiz arac\u0131l\u0131\u011f\u0131yla da\u011f\u0131t\u0131lan klipler, kamuya a\u00e7\u0131k yay\u0131n i\u00e7eriklerinden elde edilir. Da\u011f\u0131t\u0131m, kendi hesaplar\u0131n\u0131 i\u015fleten ba\u011f\u0131ms\u0131z \u00fc\u00e7\u00fcnc\u00fc taraf klip olu\u015fturucular\u0131 taraf\u0131ndan ger\u00e7ekle\u015ftirilebilir. Audience Labs bu da\u011f\u0131t\u0131m a\u011f\u0131n\u0131 koordine eder ancak da\u011f\u0131t\u0131m i\u00e7in kullan\u0131lan hesaplar\u0131 kontrol etmez. Bu ba\u011f\u0131ms\u0131z \u00fc\u00e7\u00fcnc\u00fc taraflarla hi\u00e7bir ki\u015fisel kullan\u0131c\u0131 verisi payla\u015f\u0131lmaz \u2014 yaln\u0131zca kamuya a\u00e7\u0131k yay\u0131n i\u00e7eri\u011fi kullan\u0131l\u0131r."
       },
       {
-        "heading": "Veri Güvenliği",
-        "content": "Kişisel bilgilerinizi korumak için şifreli veri iletimi ve güvenli sunucu altyapısı dahil olmak üzere endüstri standardı güvenlik önlemleri uyguluyoruz. Ancak hiçbir elektronik iletim veya depolama yöntemi %100 güvenli değildir ve mutlak güvenliği garanti edemeyiz."
+        "heading": "Veri G\u00fcvenli\u011fi",
+        "content": "Ki\u015fisel bilgilerinizi korumak i\u00e7in \u015fifreli veri iletimi ve g\u00fcvenli sunucu altyap\u0131s\u0131 dahil olmak \u00fczere end\u00fcstri standard\u0131 g\u00fcvenlik \u00f6nlemleri uyguluyoruz. Ancak hi\u00e7bir elektronik iletim veya depolama y\u00f6ntemi %100 g\u00fcvenli de\u011fildir ve mutlak g\u00fcvenli\u011fi garanti edemeyiz."
       },
       {
-        "heading": "Haklarınız",
-        "content": "Kişisel verilerinize erişme, düzeltme veya silme hakkına sahipsiniz. Ayrıca hakkınızda tuttuğumuz verilerin bir kopyasını talep edebilir veya veri işleme onayınızı istediğiniz zaman geri çekebilirsiniz. Bu haklardan herhangi birini kullanmak için lütfen info@mindorasystems.com adresinden bizimle iletişime geçin."
+        "heading": "Haklar\u0131n\u0131z",
+        "content": "Ki\u015fisel verilerinize eri\u015fme, d\u00fczeltme veya silme hakk\u0131na sahipsiniz. Ayr\u0131ca hakk\u0131n\u0131zda tuttu\u011fumuz verilerin bir kopyas\u0131n\u0131 talep edebilir veya veri i\u015fleme onay\u0131n\u0131z\u0131 istedi\u011finiz zaman geri \u00e7ekebilirsiniz. Bu haklardan herhangi birini kullanmak i\u00e7in l\u00fctfen info@mindorasystems.com adresinden bizimle ileti\u015fime ge\u00e7in."
       },
       {
-        "heading": "Bu Politikadaki Değişiklikler",
-        "content": "Bu Gizlilik Politikasını zaman zaman güncelleyebiliriz. Önemli değişiklikleri web sitemizde güncellenmiş politikayı yayınlayarak ve 'Son güncelleme' tarihini güncelleyerek bildireceğiz. Herhangi bir değişiklikten sonra hizmetlerimizi kullanmaya devam etmeniz, güncellenen politikayı kabul ettiğiniz anlamına gelir."
+        "heading": "Bu Politikadaki De\u011fi\u015fiklikler",
+        "content": "Bu Gizlilik Politikas\u0131n\u0131 zaman zaman g\u00fcncelleyebiliriz. \u00d6nemli de\u011fi\u015fiklikleri web sitemizde g\u00fcncellenmi\u015f politikay\u0131 yay\u0131nlayarak ve \u2018Son g\u00fcncelleme\u2019 tarihini g\u00fcncelleyerek bildirece\u011fiz. Herhangi bir de\u011fi\u015fiklikten sonra hizmetlerimizi kullanmaya devam etmeniz, g\u00fcncellenen politikay\u0131 kabul etti\u011finiz anlam\u0131na gelir."
       },
       {
-        "heading": "İletişim",
-        "content": "Bu Gizlilik Politikası veya veri uygulamalarımız hakkında sorularınız varsa, lütfen info@mindorasystems.com adresinden bizimle iletişime geçin."
+        "heading": "\u0130leti\u015fim",
+        "content": "Bu Gizlilik Politikas\u0131 veya veri uygulamalar\u0131m\u0131z hakk\u0131nda sorular\u0131n\u0131z varsa, l\u00fctfen info@mindorasystems.com adresinden bizimle ileti\u015fime ge\u00e7in."
       }
     ]
   },
   "terms": {
-    "title": "Kullanım Şartları",
-    "lastUpdated": "Son güncelleme: 22 Şubat 2026",
+    "title": "Kullan\u0131m \u015eartlar\u0131",
+    "lastUpdated": "Son g\u00fcncelleme: 22 \u015eubat 2026",
     "sections": [
       {
-        "heading": "Şartların Kabulü",
-        "content": "Audience Labs (Mindora Systems & Growth tarafından işletilen) tarafından sağlanan hizmetlere erişerek veya bunları kullanarak, bu Kullanım Şartlarına bağlı olmayı kabul edersiniz. Bu şartları kabul etmiyorsanız, lütfen hizmetlerimizi kullanmayın."
+        "heading": "\u015eartlar\u0131n Kabul\u00fc",
+        "content": "Audience Labs (Mindora Systems & Growth taraf\u0131ndan i\u015fletilen) taraf\u0131ndan sa\u011flanan hizmetlere eri\u015ferek veya bunlar\u0131 kullanarak, bu Kullan\u0131m \u015eartlar\u0131na ba\u011fl\u0131 olmay\u0131 kabul edersiniz. Bu \u015fartlar\u0131 kabul etmiyorsan\u0131z, l\u00fctfen hizmetlerimizi kullanmay\u0131n."
       },
       {
-        "heading": "Hizmetlerin Tanımı",
-        "content": "Audience Labs, Kick ve Twitch gibi platformlardaki yayıncılar için içerik dağıtım ve görünürlük hizmetleri sunar. Hizmetlerimiz en iyi çaba esasına dayalı olarak sunulur ve yayın kaynaklı kliplerin TikTok ve Instagram Reels gibi kısa form içerik platformlarında dağıtımının koordinasyonunu ve kampanya düzeyinde raporlamayı kapsar. Audience Labs; izlenme, takipçi, virallik veya gelir dahil ancak bunlarla sınırlı olmamak üzere belirli sonuçları garanti etmez."
+        "heading": "Hizmetlerin Tan\u0131m\u0131",
+        "content": "Audience Labs, Kick ve Twitch gibi platformlardaki yay\u0131nc\u0131lar i\u00e7in i\u00e7erik da\u011f\u0131t\u0131m ve g\u00f6r\u00fcn\u00fcrl\u00fck hizmetleri sunar. Hizmetlerimiz en iyi \u00e7aba esas\u0131na dayal\u0131 olarak sunulur ve yay\u0131n kaynakl\u0131 kliplerin TikTok ve Instagram Reels gibi k\u0131sa form i\u00e7erik platformlar\u0131nda da\u011f\u0131t\u0131m\u0131n\u0131n koordinasyonunu ve kampanya d\u00fczeyinde raporlamay\u0131 kapsar. Audience Labs; izlenme, takip\u00e7i, virallik veya gelir dahil ancak bunlarla s\u0131n\u0131rl\u0131 olmamak \u00fczere belirli sonu\u00e7lar\u0131 garanti etmez."
       },
       {
-        "heading": "Kampanya Bazlı Model",
-        "content": "Audience Labs abonelik değil, kampanya bazlı bir modelle çalışır. Her kampanya, onboarding sırasında üzerinde anlaşılan belirli bir süreyi kapsar. Kampanya süresi tamamlandığında, dağıtılan içerikler üçüncü taraf platformlarda yayında kalabilir. Hizmetlerin devamı yeni bir kampanya anlaşması gerektirir."
+        "heading": "Kampanya Bazl\u0131 Model",
+        "content": "Audience Labs abonelik de\u011fil, kampanya bazl\u0131 bir modelle \u00e7al\u0131\u015f\u0131r. Her kampanya, onboarding s\u0131ras\u0131nda \u00fczerinde anla\u015f\u0131lan belirli bir s\u00fcreyi kapsar. Kampanya s\u00fcresi tamamland\u0131\u011f\u0131nda, da\u011f\u0131t\u0131lan i\u00e7erikler \u00fc\u00e7\u00fcnc\u00fc taraf platformlarda yay\u0131nda kalabilir. Hizmetlerin devam\u0131 yeni bir kampanya anla\u015fmas\u0131 gerektirir."
       },
       {
-        "heading": "Dağıtım Hesapları ve Üçüncü Taraflar",
-        "content": "Klipler, müşteriye ait olmayan veya müşteriyle ilişkili olmayan hesaplar aracılığıyla dağıtılır. Bu hesaplar, Audience Labs tarafından koordine edilen bağımsız üçüncü taraf klip oluşturucuları tarafından işletilebilir. Müşterinin, kampanyada kullanılan dağıtım hesapları üzerinde herhangi bir mülkiyet iddiası bulunmamaktadır. Audience Labs, hesap askıya almaları, içerik kaldırmaları veya politika değişiklikleri dahil ancak bunlarla sınırlı olmamak üzere üçüncü taraf platformlar veya hesap işletmecileri tarafından gerçekleştirilen eylemlerden sorumlu değildir."
+        "heading": "Da\u011f\u0131t\u0131m Hesaplar\u0131 ve \u00dc\u00e7\u00fcnc\u00fc Taraflar",
+        "content": "Klipler, m\u00fc\u015fteriye ait olmayan veya m\u00fc\u015fteriyle ili\u015fkili olmayan hesaplar arac\u0131l\u0131\u011f\u0131yla da\u011f\u0131t\u0131l\u0131r. Bu hesaplar, Audience Labs taraf\u0131ndan koordine edilen ba\u011f\u0131ms\u0131z \u00fc\u00e7\u00fcnc\u00fc taraf klip olu\u015fturucular\u0131 taraf\u0131ndan i\u015fletilebilir. M\u00fc\u015fterinin, kampanyada kullan\u0131lan da\u011f\u0131t\u0131m hesaplar\u0131 \u00fczerinde herhangi bir m\u00fclkiyet iddias\u0131 bulunmamaktad\u0131r. Audience Labs, hesap ask\u0131ya almalar\u0131, i\u00e7erik kald\u0131rmalar\u0131 veya politika de\u011fi\u015fiklikleri dahil ancak bunlarla s\u0131n\u0131rl\u0131 olmamak \u00fczere \u00fc\u00e7\u00fcnc\u00fc taraf platformlar veya hesap i\u015fletmecileri taraf\u0131ndan ger\u00e7ekle\u015ftirilen eylemlerden sorumlu de\u011fildir."
       },
       {
-        "heading": "İçerik Hakları ve Telif",
-        "content": "Hizmetlerimizi kullanarak müşteri, sağlanan yayın içeriğinin hak sahibi olduğunu veya bu içeriği kullanmak için gerekli tüm izinleri aldığını beyan ve garanti eder. Müşteri, Audience Labs'a kampanya süresince yayın içeriğinin bölümlerini desteklenen platformlarda klipleme, düzenleme ve dağıtma konusunda münhasır olmayan, telifsiz bir lisans verir. Sağlanan içerikten kaynaklanan telif hakkı ihlali iddialarının sorumluluğu yalnızca müşteriye aittir. Audience Labs, müşteriler adına telif hakkı bildirimi başlatmaz. Müşteri talebi üzerine belirli içeriklerin dağıtımı durdurulabilir."
+        "heading": "\u0130\u00e7erik Haklar\u0131 ve Telif",
+        "content": "Hizmetlerimizi kullanarak m\u00fc\u015fteri, sa\u011flanan yay\u0131n i\u00e7eri\u011finin hak sahibi oldu\u011funu veya bu i\u00e7eri\u011fi kullanmak i\u00e7in gerekli t\u00fcm izinleri ald\u0131\u011f\u0131n\u0131 beyan ve garanti eder. M\u00fc\u015fteri, Audience Labs\u2019a kampanya s\u00fcresince yay\u0131n i\u00e7eri\u011finin b\u00f6l\u00fcmlerini desteklenen platformlarda klipleme, d\u00fczenleme ve da\u011f\u0131tma konusunda m\u00fcnhas\u0131r olmayan, telifsiz bir lisans verir. Sa\u011flanan i\u00e7erikten kaynaklanan telif hakk\u0131 ihlali iddialar\u0131n\u0131n sorumlulu\u011fu yaln\u0131zca m\u00fc\u015fteriye aittir. Audience Labs, m\u00fc\u015fteriler ad\u0131na telif hakk\u0131 bildirimi ba\u015flatmaz. M\u00fc\u015fteri talebi \u00fczerine belirli i\u00e7eriklerin da\u011f\u0131t\u0131m\u0131 durdurulabilir."
       },
       {
-        "heading": "İçerik Özgünlüğü",
-        "content": "İçerikler her müşteri için özel olarak hazırlanır ve farklı düzenlemeler, formatlar ve varyasyonlarda üretilebilir. Aynı kaynak materyal, platformlar arasında birden fazla versiyonda dağıtılabilir. Audience Labs mükerrer içerik önleme uygulamaları uygular ancak hiçbir içerik örtüşmesinin olmayacağını garanti etmez."
+        "heading": "\u0130\u00e7erik \u00d6zg\u00fcnl\u00fc\u011f\u00fc",
+        "content": "\u0130\u00e7erikler her m\u00fc\u015fteri i\u00e7in \u00f6zel olarak haz\u0131rlan\u0131r ve farkl\u0131 d\u00fczenlemeler, formatlar ve varyasyonlarda \u00fcretilebilir. Ayn\u0131 kaynak materyal, platformlar aras\u0131nda birden fazla versiyonda da\u011f\u0131t\u0131labilir. Audience Labs m\u00fckerrer i\u00e7erik \u00f6nleme uygulamalar\u0131 uygular ancak hi\u00e7bir i\u00e7erik \u00f6rt\u00fc\u015fmesinin olmayaca\u011f\u0131n\u0131 garanti etmez."
       },
       {
-        "heading": "Ödeme ve Faturalandırma",
-        "content": "Kampanya fiyatlandırması onboarding sırasında belirlenir ve kampanya dönemi başına tek seferlik ücret olarak ödenir. Ödeme, kampanya başlamadan önce yapılır. Audience Labs, önceden bildirimde bulunarak gelecek kampanyalar için fiyatlandırmayı değiştirme hakkını saklı tutar."
+        "heading": "\u00d6deme ve Faturaland\u0131rma",
+        "content": "Kampanya fiyatland\u0131rmas\u0131 onboarding s\u0131ras\u0131nda belirlenir ve kampanya d\u00f6nemi ba\u015f\u0131na tek seferlik \u00fccret olarak \u00f6denir. \u00d6deme, kampanya ba\u015flamadan \u00f6nce yap\u0131l\u0131r. Audience Labs, \u00f6nceden bildirimde bulunarak gelecek kampanyalar i\u00e7in fiyatland\u0131rmay\u0131 de\u011fi\u015ftirme hakk\u0131n\u0131 sakl\u0131 tutar."
       },
       {
-        "heading": "İptal ve İade Politikası",
-        "content": "Kampanya başlamadan önce iptal mümkündür, bu durumda tam iade yapılır. Kampanya başladıktan sonra iade yapılmaz. Özel yapılandırılmış kampanya paketleri iade edilemez. Müşterinin bu şartları ihlal etmesi veya dolandırıcılık faaliyetinde bulunması durumunda Audience Labs kampanyayı feshedebilir."
+        "heading": "\u0130ptal ve \u0130ade Politikas\u0131",
+        "content": "Kampanya ba\u015flamadan \u00f6nce iptal m\u00fcmk\u00fcnd\u00fcr, bu durumda tam iade yap\u0131l\u0131r. Kampanya ba\u015flad\u0131ktan sonra iade yap\u0131lmaz. \u00d6zel yap\u0131land\u0131r\u0131lm\u0131\u015f kampanya paketleri iade edilemez. M\u00fc\u015fterinin bu \u015fartlar\u0131 ihlal etmesi veya doland\u0131r\u0131c\u0131l\u0131k faaliyetinde bulunmas\u0131 durumunda Audience Labs kampanyay\u0131 feshedebilir."
       },
       {
         "heading": "Performans Sorumluluk Reddi",
-        "content": "Audience Labs bir içerik dağıtım ve görünürlük hizmeti sunar, sonuç garantisi vermez. İzlenme, takipçi artışı, etkileşim, virallik ve gelir; platform algoritmaları, içerik kalitesi, pazar koşulları ve izleyici davranışı dahil ancak bunlarla sınırlı olmamak üzere Audience Labs'ın kontrolü dışındaki faktörlerden etkilenir. Belirli performans sonuçları taahhüt edilmez veya ima edilmez."
+        "content": "Audience Labs bir i\u00e7erik da\u011f\u0131t\u0131m ve g\u00f6r\u00fcn\u00fcrl\u00fck hizmeti sunar, sonu\u00e7 garantisi vermez. \u0130zlenme, takip\u00e7i art\u0131\u015f\u0131, etkile\u015fim, virallik ve gelir; platform algoritmalar\u0131, i\u00e7erik kalitesi, pazar ko\u015fullar\u0131 ve izleyici davran\u0131\u015f\u0131 dahil ancak bunlarla s\u0131n\u0131rl\u0131 olmamak \u00fczere Audience Labs\u2019\u0131n kontrol\u00fc d\u0131\u015f\u0131ndaki fakt\u00f6rlerden etkilenir. Belirli performans sonu\u00e7lar\u0131 taahh\u00fct edilmez veya ima edilmez."
       },
       {
-        "heading": "Sorumluluk Sınırlaması",
-        "content": "Yasaların izin verdiği azami ölçüde, Audience Labs ve Mindora Systems & Growth, hizmetlerimizin kullanımından kaynaklanan gelir, veri veya kitle metrikleri kaybı dahil ancak bunlarla sınırlı olmamak üzere dolaylı, arızi, özel veya sonuç olarak ortaya çıkan zararlardan sorumlu olmayacaktır. Toplam sorumluluğumuz, müşterinin ilgili kampanya için ödediği tutarı aşmayacaktır."
+        "heading": "Sorumluluk S\u0131n\u0131rlamas\u0131",
+        "content": "Yasalar\u0131n izin verdi\u011fi azami \u00f6l\u00e7\u00fcde, Audience Labs ve Mindora Systems & Growth, hizmetlerimizin kullan\u0131m\u0131ndan kaynaklanan gelir, veri veya kitle metrikleri kayb\u0131 dahil ancak bunlarla s\u0131n\u0131rl\u0131 olmamak \u00fczere dolayl\u0131, ar\u0131zi, \u00f6zel veya sonu\u00e7 olarak ortaya \u00e7\u0131kan zararlardan sorumlu olmayacakt\u0131r. Toplam sorumlulu\u011fumuz, m\u00fc\u015fterinin ilgili kampanya i\u00e7in \u00f6dedi\u011fi tutar\u0131 a\u015fmayacakt\u0131r."
       },
       {
         "heading": "Uygulanacak Hukuk",
-        "content": "Bu Kullanım Şartları, İngiltere ve Galler yasalarına göre yönetilir ve yorumlanır. Bu şartlardan kaynaklanan anlaşmazlıklar İngiltere ve Galler mahkemelerinin münhasır yargı yetkisine tabi olacaktır."
+        "content": "Bu Kullan\u0131m \u015eartlar\u0131, \u0130ngiltere ve Galler yasalar\u0131na g\u00f6re y\u00f6netilir ve yorumlan\u0131r. Bu \u015fartlardan kaynaklanan anla\u015fmazl\u0131klar \u0130ngiltere ve Galler mahkemelerinin m\u00fcnhas\u0131r yarg\u0131 yetkisine tabi olacakt\u0131r."
       },
       {
-        "heading": "Şartlardaki Değişiklikler",
-        "content": "Bu Kullanım Şartlarını istediğimiz zaman değiştirme hakkımız saklıdır. Önemli değişiklikleri e-posta yoluyla veya platformumuz aracılığıyla bildireceğiz. Bu tür değişikliklerden sonra hizmetlerimizi kullanmaya devam etmeniz, güncellenen şartları kabul ettiğiniz anlamına gelir."
+        "heading": "\u015eartlardaki De\u011fi\u015fiklikler",
+        "content": "Bu Kullan\u0131m \u015eartlar\u0131n\u0131 istedi\u011fimiz zaman de\u011fi\u015ftirme hakk\u0131m\u0131z sakl\u0131d\u0131r. \u00d6nemli de\u011fi\u015fiklikleri e-posta yoluyla veya platformumuz arac\u0131l\u0131\u011f\u0131yla bildirece\u011fiz. Bu t\u00fcr de\u011fi\u015fikliklerden sonra hizmetlerimizi kullanmaya devam etmeniz, g\u00fcncellenen \u015fartlar\u0131 kabul etti\u011finiz anlam\u0131na gelir."
       }
     ]
   },
   "cookies": {
-    "title": "Çerez Politikası",
-    "lastUpdated": "Son güncelleme: 22 Şubat 2026",
+    "title": "\u00c7erez Politikas\u0131",
+    "lastUpdated": "Son g\u00fcncelleme: 22 \u015eubat 2026",
     "sections": [
       {
-        "heading": "Çerezler Nedir",
-        "content": "Çerezler, bir web sitesini ziyaret ettiğinizde cihazınızda depolanan küçük metin dosyalarıdır. Web sitesinin tercihlerinizi hatırlamasına ve tarama deneyiminizi geliştirmesine yardımcı olurlar. Audience Labs (Mindora Systems & Growth tarafından işletilen) web sitemizde çerezler ve benzer teknolojiler kullanmaktadır."
+        "heading": "\u00c7erezler Nedir",
+        "content": "\u00c7erezler, bir web sitesini ziyaret etti\u011finizde cihaz\u0131n\u0131zda depolanan k\u00fc\u00e7\u00fck metin dosyalar\u0131d\u0131r. Web sitesinin tercihlerinizi hat\u0131rlamas\u0131na ve tarama deneyiminizi geli\u015ftirmesine yard\u0131mc\u0131 olurlar. Audience Labs (Mindora Systems & Growth taraf\u0131ndan i\u015fletilen) web sitemizde \u00e7erezler ve benzer teknolojiler kullanmaktad\u0131r."
       },
       {
-        "heading": "Çerezleri Nasıl Kullanıyoruz",
-        "content": "Çerezleri web sitemizin düzgün çalışmasını sağlamak, dil tercihinizi (İngilizce veya Türkçe) hatırlamak, web sitesi trafiğini ve kullanım kalıplarını analiz etmek ve web sitesi performansımızı ve kullanıcı deneyimini geliştirmek için kullanıyoruz."
+        "heading": "\u00c7erezleri Nas\u0131l Kullan\u0131yoruz",
+        "content": "\u00c7erezleri web sitemizin d\u00fczg\u00fcn \u00e7al\u0131\u015fmas\u0131n\u0131 sa\u011flamak, dil tercihinizi (\u0130ngilizce veya T\u00fcrk\u00e7e) hat\u0131rlamak, web sitesi trafi\u011fini ve kullan\u0131m kal\u0131plar\u0131n\u0131 analiz etmek ve web sitesi performans\u0131m\u0131z\u0131 ve kullan\u0131c\u0131 deneyimini geli\u015ftirmek i\u00e7in kullan\u0131yoruz."
       },
       {
-        "heading": "Kullandığımız Çerez Türleri",
-        "content": "Temel çerezler web sitesinin çalışması için gereklidir ve devre dışı bırakılamaz. Dil seçimi ve oturum yönetimi için çerezleri içerir. Analitik çerezler, anonim kullanım verileri toplayarak ziyaretçilerin web sitemizi nasıl kullandığını anlamamıza yardımcı olur. Tercih çerezleri, daha kişiselleştirilmiş bir deneyim sunmak için seçtiğiniz dil gibi ayarlarınızı ve tercihlerinizi hatırlar."
+        "heading": "Kulland\u0131\u011f\u0131m\u0131z \u00c7erez T\u00fcrleri",
+        "content": "Temel \u00e7erezler web sitesinin \u00e7al\u0131\u015fmas\u0131 i\u00e7in gereklidir ve devre d\u0131\u015f\u0131 b\u0131rak\u0131lamaz. Dil se\u00e7imi ve oturum y\u00f6netimi i\u00e7in \u00e7erezleri i\u00e7erir. Analitik \u00e7erezler, anonim kullan\u0131m verileri toplayarak ziyaret\u00e7ilerin web sitemizi nas\u0131l kulland\u0131\u011f\u0131n\u0131 anlamam\u0131za yard\u0131mc\u0131 olur. Tercih \u00e7erezleri, daha ki\u015fiselle\u015ftirilmi\u015f bir deneyim sunmak i\u00e7in se\u00e7ti\u011finiz dil gibi ayarlar\u0131n\u0131z\u0131 ve tercihlerinizi hat\u0131rlar."
       },
       {
-        "heading": "Üçüncü Taraf Çerezleri",
-        "content": "Bazı çerezler sayfalarımızda görünen üçüncü taraf hizmetler tarafından yerleştirilir. Randevu planlama için Cal.com kullanıyoruz ve kendi çerezlerini ayarlayabilir. Üçüncü taraf çerezlerini kontrol etmiyoruz ve daha fazla bilgi için ilgili gizlilik politikalarını incelemenizi öneririz."
+        "heading": "\u00dc\u00e7\u00fcnc\u00fc Taraf \u00c7erezleri",
+        "content": "Baz\u0131 \u00e7erezler sayfalar\u0131m\u0131zda g\u00f6r\u00fcnen \u00fc\u00e7\u00fcnc\u00fc taraf hizmetler taraf\u0131ndan yerle\u015ftirilir. Randevu planlama i\u00e7in Cal.com kullan\u0131yoruz ve kendi \u00e7erezlerini ayarlayabilir. \u00dc\u00e7\u00fcnc\u00fc taraf \u00e7erezlerini kontrol etmiyoruz ve daha fazla bilgi i\u00e7in ilgili gizlilik politikalar\u0131n\u0131 incelemenizi \u00f6neririz."
       },
       {
-        "heading": "Çerezleri Yönetme",
-        "content": "Çerezleri tarayıcı ayarlarınız üzerinden kontrol edebilir ve yönetebilirsiniz. Çoğu tarayıcı çerezleri engellemenize veya silmenize olanak tanır. Ancak temel çerezleri devre dışı bırakmak web sitemizin işlevselliğini etkileyebilir. Çerezleri engellemenin, dil tercihleri gibi belirli özelliklerin düzgün çalışmasını engelleyebileceğini lütfen unutmayın."
+        "heading": "\u00c7erezleri Y\u00f6netme",
+        "content": "\u00c7erezleri taray\u0131c\u0131 ayarlar\u0131n\u0131z \u00fczerinden kontrol edebilir ve y\u00f6netebilirsiniz. \u00c7o\u011fu taray\u0131c\u0131 \u00e7erezleri engellemenize veya silmenize olanak tan\u0131r. Ancak temel \u00e7erezleri devre d\u0131\u015f\u0131 b\u0131rakmak web sitemizin i\u015flevselli\u011fini etkileyebilir. \u00c7erezleri engellemenin, dil tercihleri gibi belirli \u00f6zelliklerin d\u00fczg\u00fcn \u00e7al\u0131\u015fmas\u0131n\u0131 engelleyebilece\u011fini l\u00fctfen unutmay\u0131n."
       },
       {
-        "heading": "Bu Politikadaki Değişiklikler",
-        "content": "Teknoloji veya yasal gereksinimlerdeki değişiklikleri yansıtmak için bu Çerez Politikasını zaman zaman güncelleyebiliriz. Tüm güncellemeler, revize edilmiş 'Son güncelleme' tarihiyle bu sayfada yayınlanacaktır."
+        "heading": "Bu Politikadaki De\u011fi\u015fiklikler",
+        "content": "Teknoloji veya yasal gereksinimlerdeki de\u011fi\u015fiklikleri yans\u0131tmak i\u00e7in bu \u00c7erez Politikas\u0131n\u0131 zaman zaman g\u00fcncelleyebiliriz. T\u00fcm g\u00fcncellemeler, revize edilmi\u015f \u2018Son g\u00fcncelleme\u2019 tarihiyle bu sayfada yay\u0131nlanacakt\u0131r."
       },
       {
-        "heading": "İletişim",
-        "content": "Çerez kullanımımız hakkında sorularınız varsa, lütfen info@mindorasystems.com adresinden bizimle iletişime geçin."
+        "heading": "\u0130leti\u015fim",
+        "content": "\u00c7erez kullan\u0131m\u0131m\u0131z hakk\u0131nda sorular\u0131n\u0131z varsa, l\u00fctfen info@mindorasystems.com adresinden bizimle ileti\u015fime ge\u00e7in."
       }
     ]
   },
   "footer": {
-    "description": "TikTok ve Instagram Reels'de ölçeklenebilir klip dağıtımı ile yayıncı kitlelerini büyütüyoruz.",
+    "description": "TikTok ve Instagram Reels\u2019de \u00f6l\u00e7eklenebilir klip da\u011f\u0131t\u0131m\u0131 ile yay\u0131nc\u0131 kitlelerini b\u00fcy\u00fct\u00fcyoruz.",
     "contactEmail": "info@mindorasystems.com",
     "columns": [
       {
         "title": "Hizmetler",
         "links": [
-          { "label": "Klip Dağıtımı", "href": "#services" },
-          { "label": "Kampanya Yönetimi", "href": "#services" },
-          { "label": "Büyüme Analitiği", "href": "#services" }
+          { "label": "Klip Da\u011f\u0131t\u0131m\u0131", "href": "#services" },
+          { "label": "Kampanya Y\u00f6netimi", "href": "#services" },
+          { "label": "B\u00fcy\u00fcme Analiti\u011fi", "href": "#services" }
         ]
       },
       {
-        "title": "Şirket",
+        "title": "\u015eirket",
         "links": [
-          { "label": "Hakkımızda", "href": "#founders" },
+          { "label": "Hakk\u0131m\u0131zda", "href": "#founders" },
           { "label": "SSS", "href": "#faq" },
-          { "label": "İletişim", "href": "#contact" }
+          { "label": "\u0130leti\u015fim", "href": "#contact" }
         ]
       },
       {
@@ -451,12 +311,12 @@
         "title": "Yasal",
         "links": [
           { "label": "Gizlilik", "href": "/privacy" },
-          { "label": "Şartlar", "href": "/terms" },
-          { "label": "Çerezler", "href": "/cookies" }
+          { "label": "\u015eartlar", "href": "/terms" },
+          { "label": "\u00c7erezler", "href": "/cookies" }
         ]
       }
     ],
-    "copyright": "© 2026 Audience Labs. All rights reserved.",
+    "copyright": "\u00a9 2026 Audience Labs. All rights reserved.",
     "parentCompany": "Mindora Systems & Growth"
   }
 }
