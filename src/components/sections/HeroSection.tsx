@@ -29,17 +29,17 @@ export default function HeroSection({
   const accentWords = headingAccent.split(" ");
 
   return (
-    <section className="relative min-h-[90vh] flex items-stretch overflow-hidden">
+    <section className="relative overflow-hidden">
       {/* Background blob */}
       <div
         className="absolute top-[-10%] right-[-10%] w-[600px] h-[600px] grainy-gradient-primary opacity-20 blur-[120px] rounded-full pointer-events-none"
         style={{ animation: "blob-drift 12s ease-in-out infinite" }}
       />
 
-      {/* Two-column flex — text pinned left, visual right */}
-      <div className="w-full flex flex-col md:flex-row md:items-center gap-8 md:gap-12 px-6 md:px-8 my-auto">
-        {/* ── Left column — takes remaining space ── */}
-        <div className="flex-1 z-10 text-left">
+      {/* Two-column grid */}
+      <div className="min-h-[90vh] grid grid-cols-1 md:grid-cols-[1fr_320px] lg:grid-cols-[1fr_380px] xl:grid-cols-[1fr_420px] gap-8 md:gap-12 items-center px-6 md:px-8">
+        {/* ── Left column ── */}
+        <div className="z-10">
           {/* Heading */}
           <h1 className="font-headline text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-[9rem] leading-[0.85] font-black uppercase tracking-tighter text-white text-left">
             {/* Line 1 */}
@@ -112,7 +112,7 @@ export default function HeroSection({
         </div>
 
         {/* ── Right column ── */}
-        <div className="hidden md:block relative w-[320px] lg:w-[380px] xl:w-[420px] shrink-0">
+        <div className="hidden md:block relative">
           {/* Ambient glow */}
           <div className="absolute -inset-4 bg-primary/10 blur-2xl rounded-xl pointer-events-none" />
 
