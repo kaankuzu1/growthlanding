@@ -29,19 +29,19 @@ export default function HeroSection({
   const accentWords = headingAccent.split(" ");
 
   return (
-    <section className="relative min-h-[90vh] flex items-center overflow-hidden px-6 md:px-12 lg:px-20">
+    <section className="relative min-h-[90vh] flex items-center overflow-hidden">
       {/* Background blob */}
       <div
         className="absolute top-[-10%] right-[-10%] w-[600px] h-[600px] grainy-gradient-primary opacity-20 blur-[120px] rounded-full pointer-events-none"
         style={{ animation: "blob-drift 12s ease-in-out infinite" }}
       />
 
-      {/* Main grid — left aligned, no mx-auto */}
-      <div className="w-full grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
+      {/* Two-column flex — text left, visual right */}
+      <div className="w-full flex flex-col md:flex-row items-center gap-12 pl-6 pr-6 md:pl-12 md:pr-0 lg:pl-20 lg:pr-0">
         {/* ── Left column ── */}
-        <div className="md:col-span-8 z-10">
+        <div className="flex-1 z-10 max-w-3xl">
           {/* Heading */}
-          <h1 className="font-headline text-6xl md:text-[9rem] leading-[0.85] font-black uppercase tracking-tighter text-white">
+          <h1 className="font-headline text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-[9rem] leading-[0.85] font-black uppercase tracking-tighter text-white">
             {/* Line 1 */}
             <span className="inline-flex flex-wrap">
               {line1Words.map((word, index) => (
@@ -112,7 +112,7 @@ export default function HeroSection({
         </div>
 
         {/* ── Right column ── */}
-        <div className="md:col-span-4 hidden md:block relative">
+        <div className="hidden md:block relative w-[320px] lg:w-[380px] xl:w-[420px] shrink-0">
           {/* Ambient glow */}
           <div className="absolute -inset-4 bg-primary/10 blur-2xl rounded-xl pointer-events-none" />
 
