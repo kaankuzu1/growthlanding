@@ -3,7 +3,6 @@ import { getDictionary } from "@/lib/i18n/dictionaries";
 import HeroSection from "@/components/sections/HeroSection";
 import EngineSection from "@/components/sections/EngineSection";
 import ServicesSection from "@/components/sections/ServicesSection";
-import ClipperNetworkSection from "@/components/sections/ClipperNetworkSection";
 import WorkflowSection from "@/components/sections/WorkflowSection";
 import AboutSection from "@/components/sections/AboutSection";
 import FAQSection from "@/components/sections/FAQSection";
@@ -22,7 +21,6 @@ export default async function Home({
       <HeroSection dict={dict.hero} locale={locale} />
       <EngineSection dict={(dict as any).engine} />
       <ServicesSection dict={dict.services} />
-      <ClipperNetworkSection dict={(dict as any).clipperNetwork} />
       <WorkflowSection dict={(dict as any).workflow} />
       <AboutSection dict={dict.aboutMe} />
       <FAQSection dict={dict.faq} />

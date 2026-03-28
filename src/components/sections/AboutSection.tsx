@@ -37,8 +37,8 @@ function FounderCard({
             }}
           />
 
-          {/* Content */}
-          <div className="relative flex flex-col items-center text-center gap-4">
+          {/* Content — horizontal on desktop */}
+          <div className="relative flex flex-col md:flex-row items-center md:items-start gap-6">
             {/* Avatar */}
             <motion.div
               initial={{ scale: 0.8, opacity: 0 }}
@@ -50,9 +50,9 @@ function FounderCard({
               <img
                 src={`https://github.com/${founder.githubUsername}.png`}
                 alt={`${founder.firstName} ${founder.surname}`}
-                width={80}
-                height={80}
-                className="w-20 h-20 rounded-full border-2 border-outline-variant/20 ring-2 ring-primary/20 object-cover"
+                width={96}
+                height={96}
+                className="w-24 h-24 rounded-full border-2 border-outline-variant/20 ring-2 ring-primary/20 object-cover"
               />
               <div className="absolute -bottom-1 -right-1 w-6 h-6 bg-surface-container-lowest rounded-full border-2 border-outline-variant/20 flex items-center justify-center">
                 <GitHubIcon className="w-3 h-3 text-zinc-400" />
@@ -60,13 +60,13 @@ function FounderCard({
             </motion.div>
 
             {/* Text */}
-            <div>
+            <div className="text-center md:text-left">
               <h2 className="text-2xl md:text-3xl font-headline font-bold uppercase tracking-tighter text-white">
                 {founder.firstName}{" "}
                 <span className="text-primary">{founder.surname}</span>
               </h2>
 
-              <div className="flex items-center justify-center gap-2 mt-2">
+              <div className="flex items-center justify-center md:justify-start gap-2 mt-2">
                 <span
                   className="w-2 h-2 rounded-full bg-secondary"
                   style={{ animation: "status-pulse-lime 2s ease-in-out infinite" }}
@@ -105,16 +105,16 @@ export default function AboutSection({ dict }: { dict: AboutMeDict }) {
       <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[350px] bg-primary/10 rounded-full blur-[80px] pointer-events-none" />
 
       <div className="max-w-7xl mx-auto relative z-10">
-        {/* Section heading */}
-        <div className="mb-16 md:mb-20">
+        {/* Section heading — centered */}
+        <div className="mb-16 md:mb-20 text-center">
           <h2 className="font-headline text-4xl md:text-5xl font-black uppercase tracking-tighter text-white mb-4">
             {dict.badge}
           </h2>
-          <div className="w-24 h-1 bg-primary" />
+          <div className="w-24 h-1 bg-primary mx-auto" />
         </div>
 
         {/* Founders grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
           {dict.founders.map((founder, index) => (
             <FounderCard
               key={founder.githubUsername}
