@@ -1,6 +1,5 @@
 import { type Locale } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/dictionaries";
-import StatusIndicator from "@/components/ui/StatusIndicator";
 import HeroSection from "@/components/sections/HeroSection";
 import EngineSection from "@/components/sections/EngineSection";
 import ServicesSection from "@/components/sections/ServicesSection";
@@ -20,7 +19,6 @@ export default async function Home({
 
   return (
     <>
-      <StatusIndicator dict={(dict as any).status || { statusLabel: "Live Status", trendingLabel: "Trending Now" }} />
       <HeroSection dict={dict.hero} locale={locale} />
       <EngineSection dict={(dict as any).engine} />
       <ServicesSection dict={dict.services} />
