@@ -26,18 +26,18 @@ export default function FAQSection({ dict }: { dict: FAQDict }) {
   return (
     <section id="faq" className="py-24 md:py-32 px-8">
       <div className="max-w-7xl mx-auto">
-        {/* Heading */}
-        <div className="mb-16 md:mb-20">
+        {/* Heading — centered */}
+        <div className="mb-16 md:mb-20 text-center">
           <h2 className="font-headline text-4xl md:text-5xl font-black uppercase tracking-tighter text-white mb-4">
             {dict.heading}
           </h2>
           {dict.subtitle && (
-            <p className="text-on-surface-variant text-lg max-w-2xl">{dict.subtitle}</p>
+            <p className="text-on-surface-variant text-lg max-w-2xl mx-auto">{dict.subtitle}</p>
           )}
         </div>
 
         <FadeInWhenVisible>
-          <div className="max-w-3xl flex flex-col gap-3">
+          <div className="max-w-3xl mx-auto flex flex-col gap-3">
             {dict.items.map((item, index) => {
               const isOpen = openIndex === index;
               return (

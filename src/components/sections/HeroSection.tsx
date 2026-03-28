@@ -37,7 +37,7 @@ export default function HeroSection({
       />
 
       {/* Main grid */}
-      <div className="max-w-[1600px] w-full grid grid-cols-1 md:grid-cols-12 gap-12 items-center px-8 md:px-16 lg:px-24">
+      <div className="max-w-7xl w-full grid grid-cols-1 md:grid-cols-12 gap-12 items-center px-8 ml-0 md:ml-8 lg:ml-16 xl:ml-24">
         {/* ── Left column ── */}
         <div className="md:col-span-8 z-10">
           {/* Heading */}
@@ -100,7 +100,7 @@ export default function HeroSection({
               {ctaPrimary}
             </motion.a>
             <motion.a
-              href="#clipper-network"
+              href="#how-it-works"
               className="border border-secondary/20 hover:bg-secondary/10 text-secondary text-lg md:text-xl px-8 md:px-10 py-4 md:py-5 font-headline font-bold uppercase tracking-widest transition-all duration-300 inline-block"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
