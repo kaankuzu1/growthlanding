@@ -29,15 +29,15 @@ export default function HeroSection({
   const accentWords = headingAccent.split(" ");
 
   return (
-    <section className="relative min-h-[90vh] flex items-center overflow-hidden">
+    <section className="relative min-h-[90vh] flex items-center overflow-hidden px-6 md:px-12 lg:px-20">
       {/* Background blob */}
       <div
         className="absolute top-[-10%] right-[-10%] w-[600px] h-[600px] grainy-gradient-primary opacity-20 blur-[120px] rounded-full pointer-events-none"
         style={{ animation: "blob-drift 12s ease-in-out infinite" }}
       />
 
-      {/* Main grid */}
-      <div className="max-w-7xl w-full grid grid-cols-1 md:grid-cols-12 gap-12 items-center px-8 ml-0 md:ml-8 lg:ml-16 xl:ml-24">
+      {/* Main grid — left aligned, no mx-auto */}
+      <div className="w-full grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
         {/* ── Left column ── */}
         <div className="md:col-span-8 z-10">
           {/* Heading */}
