@@ -29,7 +29,7 @@ export default function HeroSection({
   const accentWords = headingAccent.split(" ");
 
   return (
-    <section className="relative min-h-[90vh] flex items-center overflow-hidden">
+    <section className="relative min-h-[90vh] flex items-stretch overflow-hidden">
       {/* Background blob */}
       <div
         className="absolute top-[-10%] right-[-10%] w-[600px] h-[600px] grainy-gradient-primary opacity-20 blur-[120px] rounded-full pointer-events-none"
@@ -37,7 +37,7 @@ export default function HeroSection({
       />
 
       {/* Two-column flex — text left, visual right */}
-      <div className="w-full flex flex-col md:flex-row items-center gap-12 pl-6 pr-6 md:pl-12 md:pr-0 lg:pl-20 lg:pr-0">
+      <div className="w-full flex flex-col md:flex-row items-center gap-12 pl-6 pr-6 md:pl-12 md:pr-8 lg:pl-20 lg:pr-8 my-auto">
         {/* ── Left column ── */}
         <div className="flex-1 z-10 max-w-3xl">
           {/* Heading */}
