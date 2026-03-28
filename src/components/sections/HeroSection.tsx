@@ -36,12 +36,12 @@ export default function HeroSection({
         style={{ animation: "blob-drift 12s ease-in-out infinite" }}
       />
 
-      {/* Two-column flex — text left, visual right */}
-      <div className="w-full flex flex-col md:flex-row items-center gap-12 pl-6 pr-6 md:pl-12 md:pr-8 lg:pl-20 lg:pr-8 my-auto">
-        {/* ── Left column ── */}
-        <div className="flex-1 z-10 max-w-3xl">
+      {/* Two-column flex — text pinned left, visual right */}
+      <div className="w-full flex flex-col md:flex-row md:items-center gap-8 md:gap-12 px-6 md:px-0 md:pl-8 lg:pl-16 my-auto">
+        {/* ── Left column — takes remaining space ── */}
+        <div className="flex-1 z-10 text-left">
           {/* Heading */}
-          <h1 className="font-headline text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-[9rem] leading-[0.85] font-black uppercase tracking-tighter text-white">
+          <h1 className="font-headline text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-[9rem] leading-[0.85] font-black uppercase tracking-tighter text-white text-left">
             {/* Line 1 */}
             <span className="inline-flex flex-wrap">
               {line1Words.map((word, index) => (
