@@ -22,11 +22,11 @@ export default function LanguageSwitcher({ locale }: { locale: string }) {
   return (
     <button
       onClick={switchLocale}
-      className="flex items-center gap-1 rounded-full border border-[#2F2F35] bg-[#1F1F23] px-3 py-1 text-[13px] text-gray-300 hover:border-gray-500 hover:bg-[#2F2F35] transition-colors cursor-pointer"
+      className="flex items-center gap-1.5 bg-surface-container border border-outline-variant/15 px-3 py-1.5 text-sm text-zinc-300 hover:text-white hover:bg-surface-container-high transition-colors cursor-pointer font-headline font-bold uppercase tracking-tighter"
       aria-label={`Switch to ${otherLocale === "en" ? "English" : "Türkçe"}`}
     >
       <span>{other.flag}</span>
-      <span className="font-medium">{other.label}</span>
+      <span>{other.label}</span>
     </button>
   );
 }

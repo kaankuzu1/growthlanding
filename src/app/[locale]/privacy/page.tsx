@@ -30,21 +30,21 @@ export default async function PrivacyPage({
   const { title, lastUpdated, sections } = dict.privacy;
 
   return (
-    <section className="bg-[#0E0E10] py-16 md:py-24">
+    <section className="py-24 md:py-32 px-8">
       <Container>
         <div className="max-w-3xl mx-auto">
-          <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">
+          <h1 className="font-headline text-3xl md:text-4xl font-black uppercase tracking-tighter text-white mb-2">
             {title}
           </h1>
-          <p className="text-sm text-gray-500 mb-12">{lastUpdated}</p>
+          <p className="text-sm text-zinc-500 mb-12">{lastUpdated}</p>
 
           <div className="space-y-8">
             {sections.map((section) => (
               <div key={section.heading}>
-                <h2 className="text-xl font-semibold text-white mb-3">
+                <h2 className="text-xl font-headline font-bold text-white mb-3">
                   {section.heading}
                 </h2>
-                <p className="text-gray-300 leading-relaxed">
+                <p className="text-on-surface-variant leading-relaxed">
                   {section.content}
                 </p>
               </div>

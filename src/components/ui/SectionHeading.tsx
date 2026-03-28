@@ -1,14 +1,20 @@
-import SectionBadge from "./SectionBadge";
-
 interface SectionHeadingProps {
-  badge: string;
   heading: string;
   headingAccent?: string;
+  accentColor?: "primary" | "secondary";
   subtitle?: string;
   centered?: boolean;
 }
 
-export default function SectionHeading({ badge, heading, headingAccent, subtitle, centered = true }: SectionHeadingProps) {
+export default function SectionHeading({
+  heading,
+  headingAccent,
+  accentColor = "primary",
+  subtitle,
+  centered = false,
+}: SectionHeadingProps) {
+  const colorClass = accentColor === "secondary" ? "text-secondary" : "text-primary";
+
   const renderedHeading = headingAccent
     ? (() => {
         const idx = heading.indexOf(headingAccent);
@@ -18,7 +24,7 @@ export default function SectionHeading({ badge, heading, headingAccent, subtitle
         return (
           <>
             {before}
-            <span className="font-script text-brand-500">{headingAccent}</span>
+            <span className={colorClass}>{headingAccent}</span>
             {after}
           </>
         );
@@ -27,10 +33,13 @@ export default function SectionHeading({ badge, heading, headingAccent, subtitle
 
   return (
     <div className={`${centered ? "text-center" : ""} mb-12`}>
-      <SectionBadge>{badge}</SectionBadge>
-      <h2 className="mt-4 text-3xl md:text-4xl font-bold text-gray-100">{renderedHeading}</h2>
+      <h2 className="text-4xl md:text-5xl font-headline font-black uppercase tracking-tighter text-white">
+        {renderedHeading}
+      </h2>
       {subtitle && (
-        <p className="mt-4 text-lg text-gray-400 max-w-2xl mx-auto">{subtitle}</p>
+        <p className="mt-6 text-lg text-on-surface-variant max-w-2xl leading-relaxed">
+          {subtitle}
+        </p>
       )}
     </div>
   );

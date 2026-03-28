@@ -1,21 +1,14 @@
-import { Inter, Outfit, Instrument_Serif } from "next/font/google";
+import { Manrope, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
-});
-
-const outfit = Outfit({
-  variable: "--font-display",
+const manrope = Manrope({
+  variable: "--font-manrope",
   subsets: ["latin", "latin-ext"],
 });
 
-const instrumentSerif = Instrument_Serif({
-  variable: "--font-script",
+const spaceGrotesk = Space_Grotesk({
+  variable: "--font-headline",
   subsets: ["latin", "latin-ext"],
-  weight: "400",
-  style: "italic",
 });
 
 export default function RootLayout({
@@ -24,8 +17,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html className="scroll-smooth">
-      <body className={`${inter.variable} ${outfit.variable} ${instrumentSerif.variable} antialiased`}>
+    <html className="scroll-smooth dark">
+      <body className={`${manrope.variable} ${spaceGrotesk.variable} antialiased`}>
         {children}
       </body>
     </html>

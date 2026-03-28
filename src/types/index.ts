@@ -9,21 +9,6 @@ export interface ServiceCard {
   icon: string;
 }
 
-export interface WhyChooseCard {
-  title: string;
-  description: string;
-  icon: string;
-}
-
-export interface Testimonial {
-  quote: string;
-  name: string;
-  title: string;
-  avatar: string;
-  avatarColor: string;
-  rating: number;
-}
-
 export interface FAQItem {
   question: string;
   answer: string;
@@ -39,14 +24,18 @@ export interface CTAStat {
   label: string;
 }
 
-export interface AsciiChar {
-  char: string;
-  animation: "glow" | "flash" | "center" | "none";
-  delay: number;
+export interface ClipperProfile {
+  name: string;
+  description: string;
+  level: string;
+  views: string;
+  progress: number;
 }
 
-export interface AsciiArtConfig {
-  grid: AsciiChar[][];
+export interface WorkflowStep {
+  number: string;
+  title: string;
+  description: string;
 }
 
 // Dictionary types derived from en.json structure
@@ -54,12 +43,7 @@ export type Dictionary = typeof import("@/lib/i18n/dictionaries/en.json");
 
 export type NavDict = Dictionary["nav"];
 export type HeroDict = Dictionary["hero"];
-export type TrustBarDict = Dictionary["trustBar"];
-export type ImpactDict = Dictionary["impact"];
 export type ServicesDict = Dictionary["services"];
-export type SimplifyDict = Dictionary["simplify"];
-export type WhyChooseDict = Dictionary["whyChoose"];
-export type TestimonialsDict = Dictionary["testimonials"];
 export type AboutMeDict = Dictionary["aboutMe"];
 export type FounderEntry = AboutMeDict["founders"][number];
 export type FAQDict = Dictionary["faq"];
@@ -67,6 +51,29 @@ export type CTADict = Omit<Dictionary["cta"], "stats"> & {
   stats: CTAStat[];
 };
 export type FooterDict = Dictionary["footer"];
+
+export interface StatusDict {
+  statusLabel: string;
+  trendingLabel: string;
+}
+
+export interface EngineDict {
+  heading: string;
+  description: string;
+  inputLabel: string;
+  outputLabel: string;
+  watermarkText: string;
+}
+
+export interface ClipperNetworkDict {
+  heading: string;
+  clippers: ClipperProfile[];
+}
+
+export interface WorkflowDict {
+  heading: string;
+  steps: WorkflowStep[];
+}
 
 export interface LegalSection {
   heading: string;
