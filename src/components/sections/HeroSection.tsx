@@ -37,7 +37,7 @@ export default function HeroSection({
       />
 
       {/* Two-column flex — text pinned left, visual right */}
-      <div className="w-full max-w-7xl mx-auto flex flex-col md:flex-row md:items-center gap-8 md:gap-12 px-4 sm:px-6 lg:px-8 my-auto">
+      <div className="w-full flex flex-col md:flex-row md:items-center gap-8 md:gap-12 px-6 md:px-8 my-auto">
         {/* ── Left column — takes remaining space ── */}
         <div className="flex-1 z-10 text-left">
           {/* Heading */}
