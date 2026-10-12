@@ -1,6 +1,8 @@
-# Audience Labs, landing page
+# Audience Labs, first landing page
 
-Marketing site for Audience Labs, a clip growth service for Kick and Twitch streamers: we cut streams into vertical clips and push them to TikTok, Instagram Reels and YouTube Shorts.
+The first marketing site for Audience Labs, from its early days as a done-for-you clip growth service for Kick and Twitch streamers: we cut streams into vertical clips and pushed them to TikTok, Instagram Reels and YouTube Shorts.
+
+Audience Labs has since become a self-serve tool and is in private beta. The current site is [audiencelabs.net](https://audiencelabs.net), where you can [request access](https://audiencelabs.net/request-access). This repo is kept as the earlier version.
 
 ![Hero](docs/hero.png)
 
@@ -16,7 +18,7 @@ Marketing site for Audience Labs, a clip growth service for Kick and Twitch stre
 
 ## The product behind it
 
-The actual platform is a separate app (private repo while it heads to launch). It takes a Twitch or Kick VOD URL, transcribes it with Whisper on GPU, has an LLM find and score the moments worth clipping, then renders vertical clips with word-level captions and schedules them for publishing. Next.js dashboard, Python worker (yt-dlp, FFmpeg, faster-whisper), Supabase for data and realtime.
+The platform is a separate app in a private repo, now in private beta. It takes a Twitch or Kick VOD URL, transcribes it with Whisper on GPU, has an LLM find and score the moments worth clipping, then renders vertical clips with word-level captions and schedules them for publishing. Next.js dashboard, Python worker (yt-dlp, FFmpeg, faster-whisper), Supabase for data and realtime.
 
 ![Audience Labs app](docs/app-clips.png)
 
